@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="white">
+		<meta name="format-detection" content="telephone=no">
+		<title>京杭明珠</title>
+
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/idangerous.swiper.css">
+
+		<script src="js/jquery-1.8.3.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="swiper-container index-box" style="height: 579px;">
+			<div class="swiper-wrapper" style="width: 1366px; height: 3474px; transition: 0s; -webkit-transition: 0s; -webkit-transform: translate3d(0px, 0px, 0px);">
+				<!--第一页beigin--><!--swiper-slide-visible swiper-slide-active"-->
+				<div class="swiper-slide" style="width: 1366px; height: 579px;">
+					<img src="images/P1.jpg" style="width:100%;height:100%;">
+					<img src="images/p1-1.png" class="index01-1">
+					<img src="images/p1-3.png" class="index01-2">
+					<img src="images/p1-2.png" class="index01-3">
+					<img src="images/p1-4.png" class="index01-4">
+					<img src="images/p1-5.png" class="index01-5">
+					<img src="images/down.png" alt="" class="down-ico">
+				</div>
+				<!--第一页end-->
+				<!--第二页beigin-->
+				<div class="swiper-slide" style="width: 1366px; height: 579px;">
+					<img src="images/P2.jpg" style="width:100%;height:100%;">
+					<img src="images/p2-1.png" class="index02-1">
+					<img src="images/p2-2.png" class="index02-2">
+					<img src="images/p2-4.png" class="index02-3">
+					<img src="images/p2-5.png" class="index02-4">
+					<img src="images/p2-3.png" class="index02-5">
+					<img src="images/p2-7.png" class="index02-7">
+					<img src="images/down2.png" alt="" class="down-ico">
+				</div>
+				<!--第二页end-->
+				<!--第三页beigin-->
+				<div class="swiper-slide" style="width: 1366px; height: 579px;">
+					<img src="images/P3.jpg"  style="width:100%;height:100%;">
+					<img src="images/p3-1.png" class="index03-1">
+					<img src="images/p3-2.png" class="index03-2">
+					<img src="images/p3-3.png" class="index03-3">
+					<img src="images/p3-4.png" class="index03-4">
+					<img src="images/p3-5.png" class="index03-5">
+					<img src="images/p3-6.png" class="index03-6">
+					<img src="images/down2.png" class="down-ico">
+				</div>
+				<!--第三页end-->
+				<!--第四页beigin-->
+				<div class="swiper-slide" style="width: 1366px; height: 579px;">
+					<img src="images/P4.jpg"  style="width:100%;height:100%;">
+					<img src="images/p4-1.png" class="index04-1">
+					<img src="images/p4-2.png" class="index04-2">
+					<img src="images/p4-3.png" class="index04-3">
+					<img src="images/p4-5.png" class="index04-5">
+					<img src="images/down.png" class="down-ico">
+				</div>
+				<!--第四页end-->
+				<!--第五页begin-->
+				<div class="swiper-slide" style="width: 1366px; height: 579px;">
+					<img src="images/P5.jpg" style="width:100%;height:100%;">
+					<img src="images/p5-1.png" class="index05-1">
+					<img src="images/p5-3.png" class="index05-2">
+					<img src="images/p5-2.png" class="index05-3">
+					<img src="images/p5-4.png" class="index05-4">
+					<img src="images/p5-6.png" class="index05-6">
+				</div>
+				<!--第五页end-->
+				<div class="swiper-slide" style="width: 1366px; height: 579px;"></div>
+			</div>
+		</div>
+
+		<script src="js/idangerous.swiper-2.0.min.js"></script>
+		<script src="js/index.js"></script>
+		<script>
+		$(function() {
+			$(".index-box").height($(window).height());
+			$(".swiper-slide").height($(window).height());
+		})
+		var mySwiper = new Swiper('.swiper-container', {
+			mode: 'vertical',
+			paginationClickable: true,
+			onSlideNext: function(swiper) {
+				if (swiper.activeIndex == 5) {
+					window.location.href = "main.html"
+				}
+			}
+		}) </script>
+	</body>
+</html>
