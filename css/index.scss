@@ -12,6 +12,8 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
+  min-width: 1280px;
+  min-height: 640px;
 }
 
 .swiper-container {
@@ -47,7 +49,7 @@ img.slide-1-1 {
   bottom: 0;
   right: 0;
   margin: auto;
-  width: 45%;
+  height: 50%;
   z-index: 998;
 }
 
@@ -57,7 +59,7 @@ img.slide-1-2 {
   left: 0;
   right: 0;
   margin: auto;
-  width: 20%;
+  height: 23%;
   z-index: 1000;
 }
 
@@ -107,11 +109,10 @@ img.slide-1-7 {
 img.slide-1-8 {
   position: absolute;
   top: 80%;
-  left: 37%;
-  bottom: 20%;
-  right: 63%;
+  left: 0;
+  right: 0;
   margin: auto;
-  width: 30%;
+  width: 25%;
 }
 
 img.slide-1-9 {
@@ -123,6 +124,125 @@ img.slide-1-9 {
   z-index: 999;
 }
 
+//img.slide-2-1 {
+//  position: absolute;
+//  top: 5%;
+//  left: 30%;
+//}
+//
+//img.slide-2-2 {
+//  position: absolute;
+//  top: 10%;
+//  left: 35%;
+//}
+//
+//img.slide-2-3 {
+//  position: absolute;
+//  top: 30%;
+//  left: 33%;
+//}
+
+.page-2-1 {
+  height: 400px;
+  width: 180px;
+  margin-left: 23%;
+//  background-color: #333;
+  position: relative;
+  float: left;
+  img.slide-2-1 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    height: 100px;
+  }
+  img.slide-2-2 {
+    position: absolute;
+    top: 110px;
+    left: 80px;
+    height: 60px;
+  }
+  img.slide-2-3 {
+    position: absolute;
+    top: 172px;
+    left: 43px;
+    width: 80px;
+  }
+}
+
+.page-2-2 {
+  height: 100%;
+  width: 350px;
+//  background-color: #ccc;
+  position: relative;
+  float: left;
+
+  img.slide-2-11 {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    width: 220px;
+  }
+
+  //shadow #2
+  img.slide-2-4 {
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    width: 200px;
+  }
+}
+
+.page-2-3 {
+  height: 100%;
+  width: 300px;
+//  background-color: #ddd;
+  position: relative;
+  float: left;
+}
+
+img.slide-2-5 {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 80px;
+}
+
+img.slide-2-6 {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 80px;
+}
+
+img.slide-2-7 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  width: 80px;
+}
+
+img.slide-2-8 {
+  position: absolute;
+  top: 22.5%;
+  left: 100px;
+  height: 45px;
+}
+
+img.slide-2-9 {
+  position: absolute;
+  top: 42.5%;
+  left: 100px;
+  height: 45px;
+}
+
+img.slide-2-10 {
+  position: absolute;
+  top: 62.5%;
+  left: 100px;
+  height: 45px;
+}
+
+//animation
 .swiper-slide-visible {
   .slide-1-1 {
     -webkit-animation: bounceIn 1s ease-out 0 both;
