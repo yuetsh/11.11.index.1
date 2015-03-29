@@ -9,17 +9,31 @@
     <link rel="stylesheet" href="css/foundation.min.css"/>
     <link rel="stylesheet" href="css/index.css"/>
 
-    <style>
-
-    </style>
-
     <script src="js/jquery-1.8.3.min.js"></script>
     <script>
         $(function () {
-            $(".slide-2-5").hover(function () {
-                $(this).addClass("");
+            $(".slide-2-5, .slide-2-8").hover(function () {
+                $("#image-1").removeClass("hover-effect-3").addClass("hover-effect-2");
+                $("#image-1-p1").removeClass("hover-effect-5").addClass("hover-effect-4");
             }, function () {
+                $("#image-1").removeClass("hover-effect-2").addClass("hover-effect-3");
+                $("#image-1-p1").removeClass("hover-effect-4").addClass("hover-effect-5");
+            });
 
+            $(".slide-2-6, .slide-2-9").hover(function () {
+                $("#image-2").removeClass("hover-effect-3").addClass("hover-effect-2");
+                $("#image-2-p2").removeClass("hover-effect-5").addClass("hover-effect-4");
+            }, function () {
+                $("#image-2").removeClass("hover-effect-2").addClass("hover-effect-3");
+                $("#image-2-p2").removeClass("hover-effect-4").addClass("hover-effect-5");
+            });
+
+            $(".slide-2-7, .slide-2-10").hover(function () {
+                $("#image-3").removeClass("hover-effect-3").addClass("hover-effect-2");
+                $("#image-3-p3").removeClass("hover-effect-5").addClass("hover-effect-4");
+            }, function () {
+                $("#image-3").removeClass("hover-effect-2").addClass("hover-effect-3");
+                $("#image-3-p3").removeClass("hover-effect-4").addClass("hover-effect-5");
             });
         });
     </script>
@@ -49,13 +63,18 @@
             </div>
             <div class="page-2-2">
                 <img src="images/page2/iphone-without-content.png" alt="" class="slide-2-11"/>
+
                 <div class="iphone-content">
                     <img src="images/page2/content/XXXX.png" alt="" class="iphone-content-1"/>
                     <img src="images/page2/content/avatar.png" alt="" class="iphone-content-2"/>
                     <img src="images/page2/content/square-1.png" alt="" class="iphone-content-3"/>
                     <img src="images/page2/content/square-2.png" alt="" class="iphone-content-4"/>
-                    <img src="images/page2/content/p1.png" alt="" class="iphone-content-5"/>
-                    <img src="images/page2/content/img-1.png" alt="" class="iphone-content-6"/>
+                    <img src="images/page2/content/p1.png" alt="" class="" id="image-1-p1" style="opacity: 0"/>
+                    <img src="images/page2/content/img-1.png" alt="" class="" id="image-1" style="opacity: 0"/>
+                    <img src="images/page2/content/p2.png" alt="" class="" id="image-2-p2" style="opacity: 0"/>
+                    <img src="images/page2/content/img-2.png" alt="" class="" id="image-2" style="opacity: 0"/>
+                    <img src="images/page2/content/p3.png" alt="" class="" id="image-3-p3" style="opacity: 0"/>
+                    <img src="images/page2/content/img-3.png" alt="" class="" id="image-3" style="opacity: 0"/>
                 </div>
                 <img src="images/page2/shadow.png" alt="" class="slide-2-4"/>
             </div>
@@ -69,16 +88,16 @@
             </div>
         </div>
         <!--<div class="swiper-slide">-->
-            <!--<h3>page3</h3>-->
+        <!--<h3>page3</h3>-->
         <!--</div>-->
         <!--<div class="swiper-slide">-->
-            <!--<h3>不要视奸我</h3>-->
+        <!--<h3>不要视奸我</h3>-->
         <!--</div>-->
         <!--<div class="swiper-slide">-->
-            <!--<h3>不要视奸我</h3>-->
+        <!--<h3>不要视奸我</h3>-->
         <!--</div>-->
         <!--<div class="swiper-slide">-->
-            <!--<h3>不要视奸我</h3>-->
+        <!--<h3>不要视奸我</h3>-->
         <!--</div>-->
     </div>
     <div class="swiper-pagination"></div>

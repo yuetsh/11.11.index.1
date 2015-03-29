@@ -152,11 +152,6 @@ img.slide-1-9 {
       width: 153px;
       top: 104px;
       left: 10px; }
-    .page-2-2 .iphone-content .iphone-content-6 {
-      position: absolute;
-      width: 168px;
-      top: 122px;
-      left: 12px; }
   .page-2-2 img.slide-2-4 {
     position: absolute;
     bottom: 15%;
@@ -173,6 +168,8 @@ img.slide-1-9 {
     top: 20%;
     left: 0;
     width: 80px; }
+    .page-2-3 img.slide-2-5:hover {
+      cursor: pointer; }
   .page-2-3 img.slide-2-6 {
     position: absolute;
     top: 40%;
@@ -253,8 +250,8 @@ img.slide-1-9 {
   -webkit-animation: rotateIn 1s ease-out 1.8s both;
   animation: rotateIn 1s ease-out 1.8s both; }
 .swiper-slide-visible .slide-2-7 {
-  -webkit-animation: rotateIn 1s ease-out 2.3s both;
-  animation: rotateIn 1s ease-out 2.3s both; }
+  -webkit-animation: rotateIn 1s ease-out 2.1s both;
+  animation: rotateIn 1s ease-out 2.1s both; }
 .swiper-slide-visible .slide-2-8 {
   -webkit-animation: flipInX 1s ease-out 1.5s both;
   animation: flipInX 1s ease-out 1.5s both; }
@@ -268,8 +265,8 @@ img.slide-1-9 {
   -webkit-animation: fadeIn 1s ease-in 1.2s both;
   animation: fadeIn 1s ease-in 1.2s both; }
 .swiper-slide-visible .slide-2-11 {
-  -webkit-animation: bounceInDown 1s ease-out 1s both;
-  animation: bounceInDown 1s ease-out 1s both; }
+  -webkit-animation: bounceInDown 1s ease-out 0.8s both;
+  animation: bounceInDown 1s ease-out 0s both; }
 .swiper-slide-visible .iphone-content-1 {
   -webkit-animation: bounceIn 1s ease-in 1.6s both;
   animation: bounceIn 1s ease-in 1.6s both; }
@@ -282,11 +279,41 @@ img.slide-1-9 {
 .swiper-slide-visible .iphone-content-4 {
   -webkit-animation: flipInX 1s ease-in 2.2s both;
   animation: flipInX 1s ease-in 2.2s both; }
-.swiper-slide-visible .iphone-content-5 {
-  -webkit-animation: flipInY 1s ease-in 2.8s both;
-  animation: flipInY 1s ease-in 2.8s both; }
-.swiper-slide-visible .iphone-content-6 {
-  -webkit-animation: bounceIn 1s ease-in 3s both;
-  animation: bounceIn 1s ease-in 3s both; }
+
+.hover-effect-2 {
+  -webkit-animation: bounceIn 1s ease-in 0.2s both;
+  animation: bounceIn 1s ease-in 0.2s both;
+  position: absolute;
+  opacity: 1 !important;
+  width: 168px;
+  top: 122px;
+  left: 12px; }
+
+.hover-effect-3 {
+  -webkit-animation: bounceOut 0.8s ease-out 0 both;
+  animation: bounceOut 0.8s ease-out 0 both;
+  opacity: 1 !important;
+  position: absolute;
+  width: 168px;
+  top: 122px;
+  left: 12px; }
+
+.hover-effect-4 {
+  -webkit-animation: flipInY 1s ease-in 0.2s both;
+  animation: flipInY 1s ease-in 0.2s both;
+  opacity: 1 !important;
+  position: absolute;
+  width: 153px;
+  top: 104px;
+  left: 10px; }
+
+.hover-effect-5 {
+  -webkit-animation: flipOutY 0.8s ease-in 0s both;
+  animation: flipOutY 0.8s ease-in 0s both;
+  opacity: 1 !important;
+  position: absolute;
+  width: 153px;
+  top: 104px;
+  left: 10px; }
 
 /*# sourceMappingURL=index.css.map */
