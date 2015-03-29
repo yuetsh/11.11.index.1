@@ -146,7 +146,7 @@ img.slide-1-9 {
   height: 400px;
   width: 180px;
   margin-left: 23%;
-//  background-color: #333;
+  //  background-color: #333;
   position: relative;
   float: left;
   img.slide-2-1 {
@@ -172,7 +172,7 @@ img.slide-1-9 {
 .page-2-2 {
   height: 100%;
   width: 350px;
-//  background-color: #ccc;
+  //  background-color: #ccc;
   position: relative;
   float: left;
 
@@ -181,6 +181,7 @@ img.slide-1-9 {
     top: 10%;
     left: 40px;
     width: 220px;
+    //    display: none;
   }
 
   //shadow #2
@@ -195,7 +196,7 @@ img.slide-1-9 {
 .page-2-3 {
   height: 100%;
   width: 300px;
-//  background-color: #ddd;
+  //  background-color: #ddd;
   position: relative;
   float: left;
 }
@@ -205,6 +206,7 @@ img.slide-2-5 {
   top: 20%;
   left: 0;
   width: 80px;
+
 }
 
 img.slide-2-6 {
@@ -212,6 +214,9 @@ img.slide-2-6 {
   top: 40%;
   left: 0;
   width: 80px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 img.slide-2-7 {
@@ -219,6 +224,9 @@ img.slide-2-7 {
   top: 60%;
   left: 0;
   width: 80px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 img.slide-2-8 {
@@ -226,6 +234,9 @@ img.slide-2-8 {
   top: 22.5%;
   left: 100px;
   height: 45px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 img.slide-2-9 {
@@ -233,6 +244,9 @@ img.slide-2-9 {
   top: 42.5%;
   left: 100px;
   height: 45px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 img.slide-2-10 {
@@ -240,6 +254,9 @@ img.slide-2-10 {
   top: 62.5%;
   left: 100px;
   height: 45px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 //animation
@@ -290,3 +307,59 @@ img.slide-2-10 {
   }
 }
 
+//animation #2
+.swiper-slide-visible {
+  .slide-2-1 {
+    -webkit-animation: bounceInDown 0.7s ease-out 0s both;
+    animation: bounceInDown 0.7s ease-out 0s both;
+  }
+  .slide-2-2 {
+    -webkit-animation: bounceInDown 1s ease-out 0.2s both;
+    animation: bounceInDown 1s ease-out 0.2s both;
+  }
+
+  .slide-2-3 {
+    -webkit-animation: rotateIn 1s ease-out 0.7s both;
+    animation: rotateIn 1s ease-out 0.7s both;
+  }
+
+  .slide-2-5 {
+    -webkit-animation: rotateIn 1s ease-out 1.3s both;
+    animation: rotateIn 1s ease-out 1.3s both;
+
+    }
+  }
+  .slide-2-6 {
+    -webkit-animation: rotateIn 1s ease-out 1.8s both;
+    animation: rotateIn 1s ease-out 1.8s both;
+  }
+  .slide-2-7 {
+    -webkit-animation: rotateIn 1s ease-out 2.3s both;
+    animation: rotateIn 1s ease-out 2.3s both;
+  }
+
+  .slide-2-8 {
+    -webkit-animation: flipInX 1s ease-out 1.5s both;
+    animation: flipInX 1s ease-out 1.5s both;
+  }
+  .slide-2-9 {
+    -webkit-animation: flipInX 1s ease-out 2s both;
+    animation: flipInX 1s ease-out 2s both;
+  }
+  .slide-2-10 {
+    -webkit-animation: flipInX 1s ease-out 2.5s both;
+    animation: flipInX 1s ease-out 2.5s both;
+  }
+
+  .slide-2-4 {
+    -webkit-animation: fadeIn 1s ease-in 1.2s both;
+    animation: fadeIn 1s ease-in 1.2s both;
+  }
+  //iphone animation
+  .slide-2-11 {
+    -webkit-animation: bounceInDown 1s ease-out 1s both;
+    animation: bounceInDown 1s ease-out 1s both;
+
+  }
+  //content animation
+}
