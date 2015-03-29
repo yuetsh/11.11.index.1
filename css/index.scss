@@ -215,9 +215,17 @@ img.slide-1-9 {
     }
     .iphone-content-5 {
       position: absolute;
-      width: 153px;
+      height: 14px;
       top: 104px;
       left: 10px;
+      opacity: 1 !important;
+    }
+    .iphone-content-6 {
+      position: absolute;
+      width: 168px;
+      top: 122px;
+      left: 12px;
+      opacity: 1 !important;
     }
   }
 
@@ -271,9 +279,7 @@ img.slide-1-9 {
     top: 22.5%;
     left: 100px;
     height: 45px;
-    &:hover {
-      cursor: pointer;
-    }
+    opacity: 1 !important;
   }
 
   img.slide-2-9 {
@@ -281,9 +287,7 @@ img.slide-1-9 {
     top: 42.5%;
     left: 100px;
     height: 45px;
-    &:hover {
-      cursor: pointer;
-    }
+    opacity: 1 !important;
   }
 
   img.slide-2-10 {
@@ -291,9 +295,7 @@ img.slide-1-9 {
     top: 62.5%;
     left: 100px;
     height: 45px;
-    &:hover {
-      cursor: pointer;
-    }
+    opacity: 1 !important;
   }
 
 }
@@ -362,10 +364,10 @@ img.slide-1-9 {
     animation: rotateIn 1s ease-out 0.7s both;
   }
 
-    .slide-2-5 {
-      -webkit-animation: rotateIn 1s ease-out 1.3s both;
-      animation: rotateIn 1s ease-out 1.3s both;
-    }
+  .slide-2-5 {
+    -webkit-animation: rotateIn 1s ease-out 1.3s both;
+    animation: rotateIn 1s ease-out 1.3s both;
+  }
   .slide-2-6 {
     -webkit-animation: rotateIn 1s ease-out 1.8s both;
     animation: rotateIn 1s ease-out 1.8s both;
@@ -376,20 +378,20 @@ img.slide-1-9 {
     animation: rotateIn 1s ease-out 2.1s both;
   }
 
-  .slide-2-8 {
-    -webkit-animation: flipInX 1s ease-out 1.5s both;
-    animation: flipInX 1s ease-out 1.5s both;
-  }
-
-  .slide-2-9 {
-    -webkit-animation: flipInX 1s ease-out 2s both;
-    animation: flipInX 1s ease-out 2s both;
-  }
-
-  .slide-2-10 {
-    -webkit-animation: flipInX 1s ease-out 2.5s both;
-    animation: flipInX 1s ease-out 2.5s both;
-  }
+  //  .slide-2-8 {
+  //    -webkit-animation: flipInX 1s ease-out 1.5s both;
+  //    animation: flipInX 1s ease-out 1.5s both;
+  //  }
+  //
+  //  .slide-2-9 {
+  //    -webkit-animation: flipInX 1s ease-out 2s both;
+  //    animation: flipInX 1s ease-out 2s both;
+  //  }
+  //
+  //  .slide-2-10 {
+  //    -webkit-animation: flipInX 1s ease-out 2.5s both;
+  //    animation: flipInX 1s ease-out 2.5s both;
+  //  }
 
   .slide-2-4 {
     -webkit-animation: fadeIn 1s ease-in 1.2s both;
@@ -419,14 +421,14 @@ img.slide-1-9 {
     -webkit-animation: flipInX 1s ease-in 2.2s both;
     animation: flipInX 1s ease-in 2.2s both;
   }
-//  .iphone-content-5 {
-//    -webkit-animation: flipInY 1s ease-in 2.8s both;
-//    animation: flipInY 1s ease-in 2.8s both;
-//  }
-  //  .iphone-content-6 {
-  //    -webkit-animation: bounceIn 1s ease-in 3s both;
-  //    animation: bounceIn 1s ease-in 3s both;
-  //  }
+  //    .iphone-content-5 {
+  //      -webkit-animation: flipInY 1s ease-in 2.8s both;
+  //      animation: flipInY 1s ease-in 2.8s both;
+  //    }
+  //    .iphone-content-6 {
+  //      -webkit-animation: bounceIn 1s ease-in 3s both;
+  //      animation: bounceIn 1s ease-in 3s both;
+  //    }
 }
 
 //special animation
@@ -442,39 +444,19 @@ img.slide-1-9 {
 .hover-effect-2 {
   -webkit-animation: bounceIn 1s ease-in 0.2s both;
   animation: bounceIn 1s ease-in 0.2s both;
-  position: absolute;
-  opacity: 1 !important;
-  width: 168px;
-  top: 122px;
-  left: 12px;
 }
 
 .hover-effect-3 {
-  -webkit-animation: bounceOut 0.8s ease-out 0 both;
-  animation: bounceOut 0.8s ease-out 0 both;
-  opacity: 1 !important;
-  position: absolute;
-  width: 168px;
-  top: 122px;
-  left: 12px;
+  -webkit-animation: bounceOut 0.8s ease-out 0s both;
+  animation: bounceOut 0.8s ease-out 0s both;
 }
 
 .hover-effect-4 {
   -webkit-animation: flipInY 1s ease-in 0.2s both;
   animation: flipInY 1s ease-in 0.2s both;
-  opacity: 1 !important;
-  position: absolute;
-  width: 153px;
-  top: 104px;
-  left: 10px;
 }
 
 .hover-effect-5 {
-  -webkit-animation: flipOutY 0.8s ease-in 0s both;
-  animation: flipOutY 0.8s ease-in 0s both;
-  opacity: 1 !important;
-  position: absolute;
-  width: 153px;
-  top: 104px;
-  left: 10px;
+  -webkit-animation: flipOutY 0.8s ease-out 0s both;
+  animation: flipOutY 0.8s ease-out 0s both;
 }

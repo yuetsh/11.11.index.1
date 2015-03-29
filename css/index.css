@@ -149,9 +149,16 @@ img.slide-1-9 {
       left: 45px; }
     .page-2-2 .iphone-content .iphone-content-5 {
       position: absolute;
-      width: 153px;
+      height: 14px;
       top: 104px;
-      left: 10px; }
+      left: 10px;
+      opacity: 1 !important; }
+    .page-2-2 .iphone-content .iphone-content-6 {
+      position: absolute;
+      width: 168px;
+      top: 122px;
+      left: 12px;
+      opacity: 1 !important; }
   .page-2-2 img.slide-2-4 {
     position: absolute;
     bottom: 15%;
@@ -188,23 +195,20 @@ img.slide-1-9 {
     position: absolute;
     top: 22.5%;
     left: 100px;
-    height: 45px; }
-    .page-2-3 img.slide-2-8:hover {
-      cursor: pointer; }
+    height: 45px;
+    opacity: 1 !important; }
   .page-2-3 img.slide-2-9 {
     position: absolute;
     top: 42.5%;
     left: 100px;
-    height: 45px; }
-    .page-2-3 img.slide-2-9:hover {
-      cursor: pointer; }
+    height: 45px;
+    opacity: 1 !important; }
   .page-2-3 img.slide-2-10 {
     position: absolute;
     top: 62.5%;
     left: 100px;
-    height: 45px; }
-    .page-2-3 img.slide-2-10:hover {
-      cursor: pointer; }
+    height: 45px;
+    opacity: 1 !important; }
 
 .swiper-slide-visible .slide-1-1 {
   -webkit-animation: bounceIn 1s ease-out 0 both;
@@ -252,21 +256,12 @@ img.slide-1-9 {
 .swiper-slide-visible .slide-2-7 {
   -webkit-animation: rotateIn 1s ease-out 2.1s both;
   animation: rotateIn 1s ease-out 2.1s both; }
-.swiper-slide-visible .slide-2-8 {
-  -webkit-animation: flipInX 1s ease-out 1.5s both;
-  animation: flipInX 1s ease-out 1.5s both; }
-.swiper-slide-visible .slide-2-9 {
-  -webkit-animation: flipInX 1s ease-out 2s both;
-  animation: flipInX 1s ease-out 2s both; }
-.swiper-slide-visible .slide-2-10 {
-  -webkit-animation: flipInX 1s ease-out 2.5s both;
-  animation: flipInX 1s ease-out 2.5s both; }
 .swiper-slide-visible .slide-2-4 {
   -webkit-animation: fadeIn 1s ease-in 1.2s both;
   animation: fadeIn 1s ease-in 1.2s both; }
 .swiper-slide-visible .slide-2-11 {
   -webkit-animation: bounceInDown 1s ease-out 0.8s both;
-  animation: bounceInDown 1s ease-out 0s both; }
+  animation: bounceInDown 1s ease-out 0.8s both; }
 .swiper-slide-visible .iphone-content-1 {
   -webkit-animation: bounceIn 1s ease-in 1.6s both;
   animation: bounceIn 1s ease-in 1.6s both; }
@@ -282,38 +277,18 @@ img.slide-1-9 {
 
 .hover-effect-2 {
   -webkit-animation: bounceIn 1s ease-in 0.2s both;
-  animation: bounceIn 1s ease-in 0.2s both;
-  position: absolute;
-  opacity: 1 !important;
-  width: 168px;
-  top: 122px;
-  left: 12px; }
+  animation: bounceIn 1s ease-in 0.2s both; }
 
 .hover-effect-3 {
-  -webkit-animation: bounceOut 0.8s ease-out 0 both;
-  animation: bounceOut 0.8s ease-out 0 both;
-  opacity: 1 !important;
-  position: absolute;
-  width: 168px;
-  top: 122px;
-  left: 12px; }
+  -webkit-animation: bounceOut 0.8s ease-out 0s both;
+  animation: bounceOut 0.8s ease-out 0s both; }
 
 .hover-effect-4 {
   -webkit-animation: flipInY 1s ease-in 0.2s both;
-  animation: flipInY 1s ease-in 0.2s both;
-  opacity: 1 !important;
-  position: absolute;
-  width: 153px;
-  top: 104px;
-  left: 10px; }
+  animation: flipInY 1s ease-in 0.2s both; }
 
 .hover-effect-5 {
-  -webkit-animation: flipOutY 0.8s ease-in 0s both;
-  animation: flipOutY 0.8s ease-in 0s both;
-  opacity: 1 !important;
-  position: absolute;
-  width: 153px;
-  top: 104px;
-  left: 10px; }
+  -webkit-animation: flipOutY 0.8s ease-out 0s both;
+  animation: flipOutY 0.8s ease-out 0s both; }
 
 /*# sourceMappingURL=index.css.map */
