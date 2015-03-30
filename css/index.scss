@@ -161,11 +161,14 @@ img.slide-1-9 {
     left: 80px;
     height: 60px;
   }
-  img.slide-2-3 {
+  #play {
     position: absolute;
     top: 172px;
     left: 43px;
     width: 80px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -218,14 +221,12 @@ img.slide-1-9 {
       height: 14px;
       top: 104px;
       left: 10px;
-      opacity: 1 !important;
     }
     .iphone-content-6 {
       position: absolute;
       width: 168px;
       top: 122px;
       left: 12px;
-      opacity: 1 !important;
     }
   }
 
@@ -241,10 +242,10 @@ img.slide-1-9 {
 .page-2-3 {
   height: 640px;
   width: 300px;
-  //  background-color: #ddd;
+  //    background-color: #ddd;
   position: relative;
   float: left;
-  img.slide-2-5 {
+  #circle-1 {
     position: absolute;
     top: 20%;
     left: 0;
@@ -254,7 +255,7 @@ img.slide-1-9 {
     }
   }
 
-  img.slide-2-6 {
+  #circle-2 {
     position: absolute;
     top: 40%;
     left: 0;
@@ -264,7 +265,7 @@ img.slide-1-9 {
     }
   }
 
-  img.slide-2-7 {
+  #circle-3 {
     position: absolute;
     top: 60%;
     left: 0;
@@ -274,28 +275,25 @@ img.slide-1-9 {
     }
   }
 
-  img.slide-2-8 {
+  #right-p1 {
     position: absolute;
     top: 22.5%;
     left: 100px;
     height: 45px;
-    opacity: 1 !important;
   }
 
-  img.slide-2-9 {
+  #right-p2 {
     position: absolute;
     top: 42.5%;
     left: 100px;
     height: 45px;
-    opacity: 1 !important;
   }
 
-  img.slide-2-10 {
+  #right-p3 {
     position: absolute;
     top: 62.5%;
     left: 100px;
     height: 45px;
-    opacity: 1 !important;
   }
 
 }
@@ -378,20 +376,20 @@ img.slide-1-9 {
     animation: rotateIn 1s ease-out 2.1s both;
   }
 
-  //  .slide-2-8 {
-  //    -webkit-animation: flipInX 1s ease-out 1.5s both;
-  //    animation: flipInX 1s ease-out 1.5s both;
-  //  }
-  //
-  //  .slide-2-9 {
-  //    -webkit-animation: flipInX 1s ease-out 2s both;
-  //    animation: flipInX 1s ease-out 2s both;
-  //  }
-  //
-  //  .slide-2-10 {
-  //    -webkit-animation: flipInX 1s ease-out 2.5s both;
-  //    animation: flipInX 1s ease-out 2.5s both;
-  //  }
+  .slide-2-8 {
+    -webkit-animation: flipInX 1s ease-out 1.5s both;
+    animation: flipInX 1s ease-out 1.5s both;
+  }
+
+  .slide-2-9 {
+    -webkit-animation: flipInX 1s ease-out 2s both;
+    animation: flipInX 1s ease-out 2s both;
+  }
+
+  .slide-2-10 {
+    -webkit-animation: flipInX 1s ease-out 2.5s both;
+    animation: flipInX 1s ease-out 2.5s both;
+  }
 
   .slide-2-4 {
     -webkit-animation: fadeIn 1s ease-in 1.2s both;
@@ -421,16 +419,47 @@ img.slide-1-9 {
     -webkit-animation: flipInX 1s ease-in 2.2s both;
     animation: flipInX 1s ease-in 2.2s both;
   }
-//  .iphone-content-5 {
-//    -webkit-animation: flipInY 1s ease-in 2.8s both;
-//    animation: flipInY 1s ease-in 2.8s both;
-//  }
-//  .iphone-content-6 {
-//    -webkit-animation: bounceIn 1s ease-in 3s both;
-//    animation: bounceIn 1s ease-in 3s both;
-//  }
 
-  //special animation
+  .iphone-content-animation-1 {
+    -webkit-animation: flipInY 1s ease-in 2.6s both;
+    animation: flipInY 1s ease-in 2.6s both;
+  }
+
+  .iphone-content-animation-7 {
+    -webkit-animation: bounceIn 1s ease-in 3s both;
+    animation: bounceIn 1s ease-in 3s both;
+  }
+
+  .iphone-content-animation-2 {
+    -webkit-animation: flipOutY 1s ease-out 4.6s both;
+    animation: flipOutY 1s ease-out 2.6s both;
+  }
+
+  .iphone-content-animation-8 {
+    -webkit-animation: bounceOut 1s ease-out 5s both;
+    animation: bounceOut 1s ease-out 3s both;
+  }
+
+//  .show-content-p {
+  //    -webkit-animation: flipInX 1s ease-in 0.2s both;
+  //    animation: flipInX 1s ease-in 0.2s both;
+  //  }
+  //
+  //  .disappear-content-p {
+  //    -webkit-animation: flipOutX 0.8s ease-out 0s both;
+  //    animation: flipOutX 0.8s ease-out 0s both;
+  //  }
+  //
+  //  .show-content-img {
+  //    -webkit-animation: bounceIn 1s ease-in 0.2s both;
+  //    animation: bounceIn 1s ease-in 0.2s both;
+  //  }
+  //
+  //  .disappear-content-img {
+  //    -webkit-animation: bounceOut 0.8s ease-out 0s both;
+  //    animation: bounceOut 0.8s ease-out 0s both;
+  //  }
+  //special animation #2
   //.hover-effect-1 {
   //   -webkit-transition-property: all;
   //   -webkit-transition-duration: 0.1s;
@@ -440,23 +469,38 @@ img.slide-1-9 {
   //   }
   // }
 
-  .hover-effect-2 {
-    -webkit-animation: bounceIn 1s ease-in 0.2s both;
-    animation: bounceIn 1s ease-in 0.2s both;
-  }
+  //
+  //  .hover-effect-4 {
+  //    -webkit-animation: flipInY 1s ease-in 0.2s both;
+  //    animation: flipInY 1s ease-in 0.2s both;
+  //  }
+  //
+  //  .hover-effect-5 {
+  //    -webkit-animation: flipOutY 0.8s ease-out 0s both;
+  //    animation: flipOutY 0.8s ease-out 0s both;
+  //  }
 
-  .hover-effect-3 {
-    -webkit-animation: bounceOut 0.8s ease-out 0s both;
-    animation: bounceOut 0.8s ease-out 0s both;
-  }
-
-  .hover-effect-4 {
-    -webkit-animation: flipInY 1s ease-in 0.2s both;
-    animation: flipInY 1s ease-in 0.2s both;
-  }
-
-  .hover-effect-5 {
-    -webkit-animation: flipOutY 0.8s ease-out 0s both;
-    animation: flipOutY 0.8s ease-out 0s both;
-  }
+  //change#2 animation
+//    .hover-bounceIn {
+  //      -webkit-animation: bounceIn 1s ease-in 0.2s both;
+  //      animation: bounceIn 1s ease-in 0.2s both;
+  //    }
+  //
+  //    .hover-bounceOut {
+  //      -webkit-animation: bounceOut 0.8s ease-out 0s both;
+  //      animation: bounceOut 0.8s ease-out 0s both;
+  //    }
+  //
+  //    .hover-pulse {
+  //      -webkit-animation: pulse 1s linear 0s both infinite;
+  //      animation: pulse 1s linear 0s both infinite;
+  //    }
+  //    .hover-rubberBand {
+  //      -webkit-animation: rubberBand 1s ease 0s both infinite;
+  //      animation: rubberBand 1s ease 0s both infinite;
+  //    }
+  //    .hover-swing {
+  //      -webkit-animation: swing 1s ease-in 0s both infinite;
+  //      animation: swing 1s ease-in 0s both infinite;
+  //    }
 }

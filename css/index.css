@@ -107,11 +107,13 @@ img.slide-1-9 {
     top: 110px;
     left: 80px;
     height: 60px; }
-  .page-2-1 img.slide-2-3 {
+  .page-2-1 #play {
     position: absolute;
     top: 172px;
     left: 43px;
     width: 80px; }
+    .page-2-1 #play:hover {
+      cursor: pointer; }
 
 .page-2-2 {
   height: 640px;
@@ -151,14 +153,12 @@ img.slide-1-9 {
       position: absolute;
       height: 14px;
       top: 104px;
-      left: 10px;
-      opacity: 1 !important; }
+      left: 10px; }
     .page-2-2 .iphone-content .iphone-content-6 {
       position: absolute;
       width: 168px;
       top: 122px;
-      left: 12px;
-      opacity: 1 !important; }
+      left: 12px; }
   .page-2-2 img.slide-2-4 {
     position: absolute;
     bottom: 15%;
@@ -170,45 +170,42 @@ img.slide-1-9 {
   width: 300px;
   position: relative;
   float: left; }
-  .page-2-3 img.slide-2-5 {
+  .page-2-3 #circle-1 {
     position: absolute;
     top: 20%;
     left: 0;
     width: 80px; }
-    .page-2-3 img.slide-2-5:hover {
+    .page-2-3 #circle-1:hover {
       cursor: pointer; }
-  .page-2-3 img.slide-2-6 {
+  .page-2-3 #circle-2 {
     position: absolute;
     top: 40%;
     left: 0;
     width: 80px; }
-    .page-2-3 img.slide-2-6:hover {
+    .page-2-3 #circle-2:hover {
       cursor: pointer; }
-  .page-2-3 img.slide-2-7 {
+  .page-2-3 #circle-3 {
     position: absolute;
     top: 60%;
     left: 0;
     width: 80px; }
-    .page-2-3 img.slide-2-7:hover {
+    .page-2-3 #circle-3:hover {
       cursor: pointer; }
-  .page-2-3 img.slide-2-8 {
+  .page-2-3 #right-p1 {
     position: absolute;
     top: 22.5%;
     left: 100px;
-    height: 45px;
-    opacity: 1 !important; }
-  .page-2-3 img.slide-2-9 {
+    height: 45px; }
+  .page-2-3 #right-p2 {
     position: absolute;
     top: 42.5%;
     left: 100px;
-    height: 45px;
-    opacity: 1 !important; }
-  .page-2-3 img.slide-2-10 {
+    height: 45px; }
+  .page-2-3 #right-p3 {
     position: absolute;
     top: 62.5%;
     left: 100px;
-    height: 45px;
-    opacity: 1 !important; }
+    height: 45px; }
 
 .swiper-slide-visible .slide-1-1 {
   -webkit-animation: bounceIn 1s ease-out 0s both;
@@ -256,6 +253,15 @@ img.slide-1-9 {
 .swiper-slide-visible .slide-2-7 {
   -webkit-animation: rotateIn 1s ease-out 2.1s both;
   animation: rotateIn 1s ease-out 2.1s both; }
+.swiper-slide-visible .slide-2-8 {
+  -webkit-animation: flipInX 1s ease-out 1.5s both;
+  animation: flipInX 1s ease-out 1.5s both; }
+.swiper-slide-visible .slide-2-9 {
+  -webkit-animation: flipInX 1s ease-out 2s both;
+  animation: flipInX 1s ease-out 2s both; }
+.swiper-slide-visible .slide-2-10 {
+  -webkit-animation: flipInX 1s ease-out 2.5s both;
+  animation: flipInX 1s ease-out 2.5s both; }
 .swiper-slide-visible .slide-2-4 {
   -webkit-animation: fadeIn 1s ease-in 1.2s both;
   animation: fadeIn 1s ease-in 1.2s both; }
@@ -274,17 +280,17 @@ img.slide-1-9 {
 .swiper-slide-visible .iphone-content-4 {
   -webkit-animation: flipInX 1s ease-in 2.2s both;
   animation: flipInX 1s ease-in 2.2s both; }
-.swiper-slide-visible .hover-effect-2 {
-  -webkit-animation: bounceIn 1s ease-in 0.2s both;
-  animation: bounceIn 1s ease-in 0.2s both; }
-.swiper-slide-visible .hover-effect-3 {
-  -webkit-animation: bounceOut 0.8s ease-out 0s both;
-  animation: bounceOut 0.8s ease-out 0s both; }
-.swiper-slide-visible .hover-effect-4 {
-  -webkit-animation: flipInY 1s ease-in 0.2s both;
-  animation: flipInY 1s ease-in 0.2s both; }
-.swiper-slide-visible .hover-effect-5 {
-  -webkit-animation: flipOutY 0.8s ease-out 0s both;
-  animation: flipOutY 0.8s ease-out 0s both; }
+.swiper-slide-visible .iphone-content-animation-1 {
+  -webkit-animation: flipInY 1s ease-in 2.6s both;
+  animation: flipInY 1s ease-in 2.6s both; }
+.swiper-slide-visible .iphone-content-animation-7 {
+  -webkit-animation: bounceIn 1s ease-in 3s both;
+  animation: bounceIn 1s ease-in 3s both; }
+.swiper-slide-visible .iphone-content-animation-2 {
+  -webkit-animation: flipOutY 1s ease-out 4.6s both;
+  animation: flipOutY 1s ease-out 2.6s both; }
+.swiper-slide-visible .iphone-content-animation-8 {
+  -webkit-animation: bounceOut 1s ease-out 5s both;
+  animation: bounceOut 1s ease-out 3s both; }
 
 /*# sourceMappingURL=index.css.map */
