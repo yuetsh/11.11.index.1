@@ -97,12 +97,12 @@ img.slide-1-9 {
   margin-left: 23%;
   position: relative;
   float: left; }
-  .page-2-1 img.slide-2-1 {
+  .page-2-1 #go {
     position: absolute;
     top: 30px;
     left: 40px;
     height: 100px; }
-  .page-2-1 img.slide-2-2 {
+  .page-2-1 #just {
     position: absolute;
     top: 110px;
     left: 80px;
@@ -120,7 +120,7 @@ img.slide-1-9 {
   width: 350px;
   position: relative;
   float: left; }
-  .page-2-2 img.slide-2-11 {
+  .page-2-2 #iphone {
     position: absolute;
     top: 10%;
     left: 40px;
@@ -131,35 +131,35 @@ img.slide-1-9 {
     position: relative;
     margin-left: 54px;
     margin-top: 117px; }
-    .page-2-2 .iphone-content .iphone-content-1 {
+    .page-2-2 .iphone-content #xxxx {
       height: 22px;
       margin-top: 10px; }
-    .page-2-2 .iphone-content .iphone-content-2 {
+    .page-2-2 .iphone-content #avatar {
       position: absolute;
       width: 30px;
       top: 70px;
       left: 10px; }
-    .page-2-2 .iphone-content .iphone-content-3 {
+    .page-2-2 .iphone-content #square-1 {
       position: absolute;
       width: 40px;
       top: 76px;
       left: 45px; }
-    .page-2-2 .iphone-content .iphone-content-4 {
+    .page-2-2 .iphone-content #square-2 {
       position: absolute;
       width: 29px;
       top: 90px;
       left: 45px; }
-    .page-2-2 .iphone-content .iphone-content-5 {
+    .page-2-2 .iphone-content #iphone-content-p1, .page-2-2 .iphone-content #iphone-content-p2, .page-2-2 .iphone-content #iphone-content-p3 {
       position: absolute;
       height: 14px;
       top: 104px;
       left: 10px; }
-    .page-2-2 .iphone-content .iphone-content-6 {
+    .page-2-2 .iphone-content #iphone-content-img1, .page-2-2 .iphone-content #iphone-content-img2, .page-2-2 .iphone-content #iphone-content-img3 {
       position: absolute;
       width: 168px;
       top: 122px;
       left: 12px; }
-  .page-2-2 img.slide-2-4 {
+  .page-2-2 #shadow-2 {
     position: absolute;
     bottom: 15%;
     left: 50px;
@@ -280,17 +280,53 @@ img.slide-1-9 {
 .swiper-slide-visible .iphone-content-4 {
   -webkit-animation: flipInX 1s ease-in 2.2s both;
   animation: flipInX 1s ease-in 2.2s both; }
-.swiper-slide-visible .iphone-content-animation-1 {
-  -webkit-animation: flipInY 1s ease-in 2.6s both;
-  animation: flipInY 1s ease-in 2.6s both; }
-.swiper-slide-visible .iphone-content-animation-7 {
-  -webkit-animation: bounceIn 1s ease-in 3s both;
-  animation: bounceIn 1s ease-in 3s both; }
-.swiper-slide-visible .iphone-content-animation-2 {
-  -webkit-animation: flipOutY 1s ease-out 4.6s both;
-  animation: flipOutY 1s ease-out 2.6s both; }
-.swiper-slide-visible .iphone-content-animation-8 {
-  -webkit-animation: bounceOut 1s ease-out 5s both;
-  animation: bounceOut 1s ease-out 3s both; }
+.swiper-slide-visible .iphone-content-5 {
+  -webkit-animation: bounceInDown 1s ease-in 2.4s both;
+  animation: bounceInDown 1s ease-in 2.4s both; }
+.swiper-slide-visible .iphone-content-6 {
+  -webkit-animation: bounceIn 1s ease-in 2.8s both;
+  animation: bounceIn 1s ease-in 2.8s both; }
+.swiper-slide-visible .hover-bounceIn {
+  -webkit-animation: bounceIn 1s ease-in 0.2s both;
+  animation: bounceIn 1s ease-in 0.2s both; }
+.swiper-slide-visible .hover-bounceOut {
+  -webkit-animation: bounceOut 0.8s ease-out 0s both;
+  animation: bounceOut 0.8s ease-out 0s both; }
+.swiper-slide-visible .hover-pulse {
+  -webkit-animation: pulse 1s linear 0s both infinite;
+  animation: pulse 1s linear 0s both infinite; }
+.swiper-slide-visible .hover-rubberBand {
+  -webkit-animation: rubberBand 1s ease 0s both infinite;
+  animation: rubberBand 1s ease 0s both infinite; }
+.swiper-slide-visible .hover-swing {
+  -webkit-animation: swing 1s ease-in 0s both infinite;
+  animation: swing 1s ease-in 0s both infinite; }
+.swiper-slide-visible .hover-flipInY {
+  -webkit-animation: flipInY 1s ease-in 0s both;
+  animation: flipInY 1s ease-in 0s both; }
+.swiper-slide-visible .hover-tada-infinite-1 {
+  -webkit-animation: tada 1s linear 0s both infinite;
+  animation: tada 1s linear 0s both infinite; }
+.swiper-slide-visible .hover-tada-infinite-2 {
+  -webkit-animation: tada 1s linear 0.2s both infinite;
+  animation: tada 1s linear 0.2s both infinite; }
+.swiper-slide-visible .hover-flipInY-2 {
+  -webkit-animation: flipInY 1s ease-in 0.3s both;
+  animation: flipInY 1s ease-in 0.3s both; }
+.swiper-slide-visible .hover-flipInY-3 {
+  -webkit-animation: flipInY 1s ease-in 0.6s both;
+  animation: flipInY 1s ease-in 0.6s both; }
+.swiper-slide-visible .hover-flipInY-4 {
+  -webkit-animation: flipInY 1s ease-in 0.9s both;
+  animation: flipInY 1s ease-in 0.9s both; }
+.swiper-slide-visible .hover-flipInY-5 {
+  -webkit-animation: flipInY 1s ease-in 1.2s both;
+  animation: flipInY 1s ease-in 1.2s both; }
+.swiper-slide-visible .hover-flipInY-6 {
+  -webkit-animation: flipInY 1s ease-in 1.5s both;
+  animation: flipInY 1s ease-in 1.5s both; }
+.swiper-slide-visible .hover-flipInY-7 {
+  -webkit-animation: flipInY 1s ease-in 1.7s both;
+  animation: flipInY 1s ease-in 1.7s both; }
 
 /*# sourceMappingURL=index.css.map */
