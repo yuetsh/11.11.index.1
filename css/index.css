@@ -10,7 +10,7 @@ body {
   margin: 0;
   padding: 0;
   min-width: 1280px;
-  min-height: 640px; }
+  min-height: 620px; }
 
 .swiper-container {
   width: 100%;
@@ -20,8 +20,7 @@ body {
   text-align: center;
   font-size: 18px;
   background: #fff;
-  position: relative;
-  /* Center slide text vertically */ }
+  position: relative; }
 
 img.slide-1-1 {
   position: absolute;
@@ -91,121 +90,131 @@ img.slide-1-9 {
   height: 40%;
   z-index: 999; }
 
-.page-2-1 {
-  height: 400px;
-  width: 180px;
-  margin-left: 23%;
-  position: relative;
-  float: left; }
-  .page-2-1 #go {
-    position: absolute;
-    top: 30px;
-    left: 40px;
-    height: 100px; }
-  .page-2-1 #just {
-    position: absolute;
-    top: 110px;
-    left: 80px;
-    height: 60px; }
-  .page-2-1 #play {
-    position: absolute;
-    top: 172px;
-    left: 43px;
-    width: 80px; }
-    .page-2-1 #play:hover {
-      cursor: pointer; }
-
-.page-2-2 {
-  height: 640px;
-  width: 350px;
-  position: relative;
-  float: left; }
-  .page-2-2 #iphone {
-    position: absolute;
-    top: 10%;
-    left: 40px;
-    width: 220px; }
-  .page-2-2 .iphone-content {
-    width: 193px;
-    height: 341px;
+.vertical-center {
+  height: 600px;
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%; }
+  .vertical-center .page-2-1 {
+    height: 400px;
+    width: 180px;
+    margin-left: 12%;
     position: relative;
-    margin-left: 54px;
-    margin-top: 117px; }
-    .page-2-2 .iphone-content #xxxx {
-      height: 22px;
-      margin-top: 10px; }
-    .page-2-2 .iphone-content #avatar {
+    float: left;
+    top: -50%;
+    left: -50%; }
+    .vertical-center .page-2-1 #go {
       position: absolute;
-      width: 30px;
-      top: 70px;
-      left: 10px; }
-    .page-2-2 .iphone-content #square-1 {
+      top: 30px;
+      left: 40px;
+      height: 100px; }
+    .vertical-center .page-2-1 #just {
       position: absolute;
-      width: 40px;
-      top: 76px;
-      left: 45px; }
-    .page-2-2 .iphone-content #square-2 {
+      top: 110px;
+      left: 80px;
+      height: 60px; }
+    .vertical-center .page-2-1 #play {
       position: absolute;
-      width: 29px;
-      top: 90px;
-      left: 45px; }
-    .page-2-2 .iphone-content #iphone-content-p1, .page-2-2 .iphone-content #iphone-content-p2, .page-2-2 .iphone-content #iphone-content-p3 {
+      top: 172px;
+      left: 43px;
+      width: 80px; }
+      .vertical-center .page-2-1 #play:hover {
+        cursor: pointer; }
+  .vertical-center .page-2-2 {
+    height: 640px;
+    width: 350px;
+    position: relative;
+    float: left;
+    top: -50%;
+    left: -50%; }
+    .vertical-center .page-2-2 #iphone {
       position: absolute;
-      height: 14px;
-      top: 104px;
-      left: 10px; }
-    .page-2-2 .iphone-content #iphone-content-img1, .page-2-2 .iphone-content #iphone-content-img2, .page-2-2 .iphone-content #iphone-content-img3 {
+      top: 10%;
+      left: 40px;
+      width: 220px; }
+    .vertical-center .page-2-2 .iphone-content {
+      width: 193px;
+      height: 341px;
+      position: relative;
+      margin-left: 54px;
+      margin-top: 117px; }
+      .vertical-center .page-2-2 .iphone-content #xxxx {
+        height: 22px;
+        margin-top: 10px; }
+      .vertical-center .page-2-2 .iphone-content #avatar {
+        position: absolute;
+        width: 30px;
+        top: 70px;
+        left: 10px; }
+      .vertical-center .page-2-2 .iphone-content #square-1 {
+        position: absolute;
+        width: 40px;
+        top: 76px;
+        left: 45px; }
+      .vertical-center .page-2-2 .iphone-content #square-2 {
+        position: absolute;
+        width: 29px;
+        top: 90px;
+        left: 45px; }
+      .vertical-center .page-2-2 .iphone-content #iphone-content-p1, .vertical-center .page-2-2 .iphone-content #iphone-content-p2, .vertical-center .page-2-2 .iphone-content #iphone-content-p3 {
+        position: absolute;
+        height: 14px;
+        top: 104px;
+        left: 10px; }
+      .vertical-center .page-2-2 .iphone-content #iphone-content-img1, .vertical-center .page-2-2 .iphone-content #iphone-content-img2, .vertical-center .page-2-2 .iphone-content #iphone-content-img3 {
+        position: absolute;
+        width: 168px;
+        top: 122px;
+        left: 12px; }
+    .vertical-center .page-2-2 #shadow-2 {
       position: absolute;
-      width: 168px;
-      top: 122px;
-      left: 12px; }
-  .page-2-2 #shadow-2 {
-    position: absolute;
-    bottom: 15%;
-    left: 50px;
-    width: 200px; }
-
-.page-2-3 {
-  height: 640px;
-  width: 300px;
-  position: relative;
-  float: left; }
-  .page-2-3 #circle-1 {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    width: 80px; }
-    .page-2-3 #circle-1:hover {
-      cursor: pointer; }
-  .page-2-3 #circle-2 {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 80px; }
-    .page-2-3 #circle-2:hover {
-      cursor: pointer; }
-  .page-2-3 #circle-3 {
-    position: absolute;
-    top: 60%;
-    left: 0;
-    width: 80px; }
-    .page-2-3 #circle-3:hover {
-      cursor: pointer; }
-  .page-2-3 #right-p1 {
-    position: absolute;
-    top: 22.5%;
-    left: 100px;
-    height: 45px; }
-  .page-2-3 #right-p2 {
-    position: absolute;
-    top: 42.5%;
-    left: 100px;
-    height: 45px; }
-  .page-2-3 #right-p3 {
-    position: absolute;
-    top: 62.5%;
-    left: 100px;
-    height: 45px; }
+      bottom: 15%;
+      left: 50px;
+      width: 200px; }
+  .vertical-center .page-2-3 {
+    height: 640px;
+    width: 300px;
+    position: relative;
+    float: left;
+    top: -50%;
+    left: -50%; }
+    .vertical-center .page-2-3 #circle-1 {
+      position: absolute;
+      top: 20%;
+      left: 0;
+      width: 80px; }
+      .vertical-center .page-2-3 #circle-1:hover {
+        cursor: pointer; }
+    .vertical-center .page-2-3 #circle-2 {
+      position: absolute;
+      top: 40%;
+      left: 0;
+      width: 80px; }
+      .vertical-center .page-2-3 #circle-2:hover {
+        cursor: pointer; }
+    .vertical-center .page-2-3 #circle-3 {
+      position: absolute;
+      top: 60%;
+      left: 0;
+      width: 80px; }
+      .vertical-center .page-2-3 #circle-3:hover {
+        cursor: pointer; }
+    .vertical-center .page-2-3 #right-p1 {
+      position: absolute;
+      top: 22.5%;
+      left: 100px;
+      height: 45px; }
+    .vertical-center .page-2-3 #right-p2 {
+      position: absolute;
+      top: 42.5%;
+      left: 100px;
+      height: 45px; }
+    .vertical-center .page-2-3 #right-p3 {
+      position: absolute;
+      top: 62.5%;
+      left: 100px;
+      height: 45px; }
 
 .swiper-slide-visible .slide-1-1 {
   -webkit-animation: bounceIn 1s ease-out 0s both;
