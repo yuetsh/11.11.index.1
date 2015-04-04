@@ -163,7 +163,7 @@ img.slide-1-9 {
       top: 10%;
       left: 40px;
       width: 220px;
-      //    display: none;
+      //      display: none;
     }
 
     .iphone-content {
@@ -280,4 +280,177 @@ img.slide-1-9 {
 }
 
 //page3
+.page-3-1 {
+  height: 400px;
+  width: 180px;
+  margin-left: 12%;
+  //  background-color: #333;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: -50%;
+  .slide-3-1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 130px;
+  }
+  .slide-3-2 {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    height: 150px;
+  }
+  .slide-3-3 {
+    position: absolute;
+    top: 150px;
+    left: 83px;
+    height: 20px;
+  }
+}
 
+.page-3-2 {
+  height: 640px;
+  width: 350px;
+  //  background-color: #ccc;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: -50%;
+  #iphone-2 {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    width: 220px;
+  }
+
+  .iphone-content {
+    width: 193px;
+    height: 341px;
+    position: relative;
+    margin-left: 54px;
+    margin-top: 117px;
+    #xxxx-2 {
+      height: 12px;
+      margin-top: 15px;
+      margin-left: -197px;
+    }
+    #heart {
+      position: absolute;
+      top: 46px;
+      right: 12px;
+      width: 16px;
+    }
+    //ufo
+    #ufo {
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      width: 194px;
+      z-index: 999;
+    }
+    .p3-left {
+      //      background-color: #333;
+      width: 36px;
+      height: 250px;
+      position: relative;
+      float: left;
+      margin-top: 65px;
+      #c1, #c2 {
+        position: absolute;
+        left: 5px;
+        width: 90%;
+      }
+      #c1 {
+        top: 20px;
+      }
+      #c2 {
+        top: 110px;
+      }
+    }
+    .p3-mid {
+      //      background-color: #666;
+      width: 120px;
+      height: 250px;
+      float: left;
+      position: relative;
+      margin-top: 65px;
+      #m1, #m3 {
+        position: absolute;
+        left: 3px;
+        width: 110px;
+      }
+      #m2, #m4, #m5 {
+        position: absolute;
+        left: 8px;
+        width: 110px;
+      }
+      #m1 {
+        top: 20px;
+      }
+      #m2 {
+        top: 65px;
+      }
+      #m3 {
+        top: 110px;
+      }
+      #m4 {
+        top: 155px;
+      }
+      #m5 {
+        top: 200px;
+      }
+    }
+    .p3-right {
+      //      background-color: #111;
+      width: 36px;
+      height: 250px;
+      float: left;
+      position: relative;
+      margin-top: 65px;
+      #c3, #c4, #c5 {
+        position: absolute;
+        left: 0;
+        width: 90%;
+      }
+      #c3 {
+        top: 65px;
+      }
+      #c4 {
+        top: 155px;
+      }
+      #c5 {
+        top: 200px;
+      }
+    }
+  }
+  //shadow #3
+  #shadow-3 {
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    width: 200px;
+  }
+}
+
+.page-3-3 {
+  height: 640px;
+  width: 300px;
+  //  background-color: #ddd;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: -50%;
+  .slide-3-5 {
+    position: absolute;
+    top: 38%;
+    left: 0px;
+    height: 40px;
+  }
+  .slide-3-6 {
+    position: absolute;
+    top: 46%;
+    left: 0px;
+    height: 40px;
+  }
+}

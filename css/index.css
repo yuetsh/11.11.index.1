@@ -216,6 +216,141 @@ img.slide-1-9 {
       left: 100px;
       height: 45px; }
 
+.page-3-1 {
+  height: 400px;
+  width: 180px;
+  margin-left: 12%;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: -50%; }
+  .page-3-1 .slide-3-1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 130px; }
+  .page-3-1 .slide-3-2 {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    height: 150px; }
+  .page-3-1 .slide-3-3 {
+    position: absolute;
+    top: 150px;
+    left: 83px;
+    height: 20px; }
+
+.page-3-2 {
+  height: 640px;
+  width: 350px;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: -50%; }
+  .page-3-2 #iphone-2 {
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    width: 220px; }
+  .page-3-2 .iphone-content {
+    width: 193px;
+    height: 341px;
+    position: relative;
+    margin-left: 54px;
+    margin-top: 117px; }
+    .page-3-2 .iphone-content #xxxx-2 {
+      height: 12px;
+      margin-top: 15px;
+      margin-left: -197px; }
+    .page-3-2 .iphone-content #heart {
+      position: absolute;
+      top: 46px;
+      right: 12px;
+      width: 16px; }
+    .page-3-2 .iphone-content #ufo {
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      width: 194px;
+      z-index: 999; }
+    .page-3-2 .iphone-content .p3-left {
+      width: 36px;
+      height: 250px;
+      position: relative;
+      float: left;
+      margin-top: 65px; }
+      .page-3-2 .iphone-content .p3-left #c1, .page-3-2 .iphone-content .p3-left #c2 {
+        position: absolute;
+        left: 5px;
+        width: 90%; }
+      .page-3-2 .iphone-content .p3-left #c1 {
+        top: 20px; }
+      .page-3-2 .iphone-content .p3-left #c2 {
+        top: 110px; }
+    .page-3-2 .iphone-content .p3-mid {
+      width: 120px;
+      height: 250px;
+      float: left;
+      position: relative;
+      margin-top: 65px; }
+      .page-3-2 .iphone-content .p3-mid #m1, .page-3-2 .iphone-content .p3-mid #m3 {
+        position: absolute;
+        left: 3px;
+        width: 110px; }
+      .page-3-2 .iphone-content .p3-mid #m2, .page-3-2 .iphone-content .p3-mid #m4, .page-3-2 .iphone-content .p3-mid #m5 {
+        position: absolute;
+        left: 8px;
+        width: 110px; }
+      .page-3-2 .iphone-content .p3-mid #m1 {
+        top: 20px; }
+      .page-3-2 .iphone-content .p3-mid #m2 {
+        top: 65px; }
+      .page-3-2 .iphone-content .p3-mid #m3 {
+        top: 110px; }
+      .page-3-2 .iphone-content .p3-mid #m4 {
+        top: 155px; }
+      .page-3-2 .iphone-content .p3-mid #m5 {
+        top: 200px; }
+    .page-3-2 .iphone-content .p3-right {
+      width: 36px;
+      height: 250px;
+      float: left;
+      position: relative;
+      margin-top: 65px; }
+      .page-3-2 .iphone-content .p3-right #c3, .page-3-2 .iphone-content .p3-right #c4, .page-3-2 .iphone-content .p3-right #c5 {
+        position: absolute;
+        left: 0;
+        width: 90%; }
+      .page-3-2 .iphone-content .p3-right #c3 {
+        top: 65px; }
+      .page-3-2 .iphone-content .p3-right #c4 {
+        top: 155px; }
+      .page-3-2 .iphone-content .p3-right #c5 {
+        top: 200px; }
+  .page-3-2 #shadow-3 {
+    position: absolute;
+    bottom: 15%;
+    left: 50px;
+    width: 200px; }
+
+.page-3-3 {
+  height: 640px;
+  width: 300px;
+  position: relative;
+  float: left;
+  top: -50%;
+  left: -50%; }
+  .page-3-3 .slide-3-5 {
+    position: absolute;
+    top: 38%;
+    left: 0px;
+    height: 40px; }
+  .page-3-3 .slide-3-6 {
+    position: absolute;
+    top: 46%;
+    left: 0px;
+    height: 40px; }
+
 .swiper-slide-visible .slide-1-1 {
   -webkit-animation: bounceIn 1s ease-out 0s both;
   animation: bounceIn 1s ease-out 0s both; }
