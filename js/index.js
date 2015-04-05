@@ -114,4 +114,9 @@ $(function () {
         $("#iphone-content-p3").removeClass("hover-flipInY-6 iphone-content-5");
         $("#iphone-content-img3").removeClass("hover-flipInY-7 iphone-content-6");
     });
+
+    document.getElementById("page-3-begin").addEventListener("webkitAnimationStart",function(e){
+        alert(1111);
+
+    },false);
 });
