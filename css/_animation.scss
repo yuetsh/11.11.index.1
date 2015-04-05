@@ -189,6 +189,10 @@
     -webkit-animation: flipInY 0.8s ease-out 1.5s both;
     animation: flipInY 0.8s ease-out 1.5s both;
   }
+  .hover-bounce {
+    -webkit-animation: bounce 1s ease 0s both infinite;
+    animation: bounce 1s ease 0s both infinite;
+  }
 }
 
 //animation #3

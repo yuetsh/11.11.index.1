@@ -362,6 +362,12 @@ img.slide-1-9 {
     height: 50px;
     margin-top: 30px; }
 
+.next-btn {
+  position: absolute;
+  height: 70px;
+  bottom: 0;
+  right: 20%; }
+
 .swiper-slide-visible .slide-1-1 {
   -webkit-animation: bounceIn 1s ease-out 0s both;
   animation: bounceIn 1s ease-out 0s both; }
@@ -483,6 +489,9 @@ img.slide-1-9 {
 .swiper-slide-visible .hover-flipInY-7 {
   -webkit-animation: flipInY 0.8s ease-out 1.5s both;
   animation: flipInY 0.8s ease-out 1.5s both; }
+.swiper-slide-visible .hover-bounce {
+  -webkit-animation: bounce 1s ease 0s both infinite;
+  animation: bounce 1s ease 0s both infinite; }
 
 .swiper-slide-visible img.slide-3-1 {
   -webkit-animation: bounceInDown 0.7s ease-out 0s both;

@@ -81,4 +81,9 @@ $(function () {
         $("#iphone-content-p3").removeClass("hover-flipInY-6 iphone-content-5");
         $("#iphone-content-img3").removeClass("hover-flipInY-7 iphone-content-6");
     });
+    $(".next-btn").hover(function () {
+        $(this).addClass("hover-bounce");
+    }, function () {
+        $(this).removeClass("hover-bounce");
+    })
 });
