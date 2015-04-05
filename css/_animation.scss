@@ -313,3 +313,14 @@
     animation: bounceIn 0.8s ease-out 15.8s both;
   }
 }
+
+.swiper-slide-visible {
+  .slide-4-1 {
+    -webkit-animation: bounceIn 0.8s ease-out 0s both;
+    animation: bounceIn 0.8s ease-out 0s both;
+  }
+  .slide-4-2 {
+    -webkit-animation: flipInX 1s ease-out 0.3s both;
+    animation: flipInX 1s ease-out 0.3s both;
+  }
+}

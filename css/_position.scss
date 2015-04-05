@@ -293,19 +293,19 @@ img.slide-1-9 {
     position: absolute;
     top: 20px;
     left: 40px;
-    height: 130px;
+    height: 140px;
   }
   .slide-3-2 {
     position: absolute;
     top: 65px;
     left: 80px;
-    height: 150px;
+    height: 160px;
   }
   .slide-3-3 {
     position: absolute;
-    top: 150px;
+    top: 155px;
     left: 83px;
-    height: 20px;
+    height: 23px;
   }
 }
 
@@ -445,12 +445,28 @@ img.slide-1-9 {
     position: absolute;
     top: 38%;
     left: 0px;
-    height: 40px;
+    height: 45px;
   }
   .slide-3-7 {
     position: absolute;
     top: 46%;
     left: 0px;
-    height: 40px;
+    height: 45px;
+  }
+}
+
+.page-4 {
+  position: absolute;
+  width: 500px;
+  height: 360px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .slide-4-1 {
+
+  }
+  .slide-4-2 {
+    height: 50px;
+    margin-top: 30px;
   }
 }
