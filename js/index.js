@@ -53,9 +53,9 @@ $(function () {
         $("#avatar").addClass("hover-flipInY-3");
         $("#square-1").addClass("hover-flipInY-4");
         $("#square-2").addClass("hover-flipInY-5");
-        $("#iphone-content-p1").css({"display":"block"}).addClass("hover-flipInY-6");
-        $("#iphone-content-img1").css({"display":"block"}).addClass("hover-flipInY-7");
-        $("#iphone-content-p2,#iphone-content-img2,#iphone-content-p3,#iphone-content-img3").css({"display":"none"});
+        $("#iphone-content-p1").css({"display": "block"}).addClass("hover-flipInY-6");
+        $("#iphone-content-img1").css({"display": "block"}).addClass("hover-flipInY-7");
+        $("#iphone-content-p2,#iphone-content-img2,#iphone-content-p3,#iphone-content-img3").css({"display": "none"});
 
     }, function () {
         $("#circle-1").removeClass("hover-rubberBand slide-2-5");
@@ -77,9 +77,9 @@ $(function () {
         $("#avatar").addClass("hover-flipInY-3");
         $("#square-1").addClass("hover-flipInY-4");
         $("#square-2").addClass("hover-flipInY-5");
-        $("#iphone-content-p1,#iphone-content-img1,#iphone-content-p3,#iphone-content-img3").css({"display":"none"});
-        $("#iphone-content-p2").css({"display":"block"}).addClass("hover-flipInY-6");
-        $("#iphone-content-img2").css({"display":"block"}).addClass("hover-flipInY-7");
+        $("#iphone-content-p1,#iphone-content-img1,#iphone-content-p3,#iphone-content-img3").css({"display": "none"});
+        $("#iphone-content-p2").css({"display": "block"}).addClass("hover-flipInY-6");
+        $("#iphone-content-img2").css({"display": "block"}).addClass("hover-flipInY-7");
     }, function () {
         $("#circle-2").removeClass("hover-rubberBand slide-2-6");
         $("#right-p2,#shadow-2").removeClass("hover-pulse slide-2-4 slide-2-9");
@@ -100,9 +100,9 @@ $(function () {
         $("#avatar").addClass("hover-flipInY-3");
         $("#square-1").addClass("hover-flipInY-4");
         $("#square-2").addClass("hover-flipInY-5");
-        $("#iphone-content-p1,#iphone-content-img1,#iphone-content-p2,#iphone-content-img2").css({"display":"none"});
-        $("#iphone-content-p3").css({"display":"block"}).addClass("hover-flipInY-6");
-        $("#iphone-content-img3").css({"display":"block"}).addClass("hover-flipInY-7");
+        $("#iphone-content-p1,#iphone-content-img1,#iphone-content-p2,#iphone-content-img2").css({"display": "none"});
+        $("#iphone-content-p3").css({"display": "block"}).addClass("hover-flipInY-6");
+        $("#iphone-content-img3").css({"display": "block"}).addClass("hover-flipInY-7");
     }, function () {
         $("#circle-3").removeClass("hover-rubberBand slide-2-7");
         $("#right-p3,#shadow-2").removeClass("hover-pulse slide-2-4 slide-2-10");
