@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+    <meta name="renderer" content="webkit">
     <title>index</title>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/idangerous.swiper.css">
@@ -79,7 +79,7 @@
                     <div class="iphone-content">
                         <img src="images/page3/xxxx.png" alt="" id="xxxx-2" class="iphone-content-3-2"/>
                         <img src="images/page3/heart.png" alt="" id="heart" class="iphone-content-3-13"/>
-                        <img src="images/page3/ufo.gif" alt="" id="ufo" class="iphone-content-3-1"/>
+                        <img alt="" id="ufo" class="iphone-content-3-1"/>
 
                         <div class="p3-left">
                             <img src="images/page3/circle-hot.png" alt="" id="c1" class="iphone-content-3-3"/>
@@ -118,9 +118,7 @@
 </div>
 
 <script src="js/jquery-1.8.3.min.js"></script>
-
 <script src="js/index.js"></script>
-
 <script src="js/idangerous.swiper-2.0.min.js"></script>
 <script>
     var mySwiper = new Swiper('.swiper-container', {
@@ -129,7 +127,10 @@
         keyboardControl: true,
         onSlideChangeStart: function (swiper) {
             if (swiper.activeIndex == 2) {
-                $(".page-3-2 > .iphone-content >.iphone-content-3-1").attr('src', 'images/page3/ufo.gif');
+                $(".page-3-2 > .iphone-content >.iphone-content-3-1").attr("src", "images/page3/ufo.gif");
+            }
+            else {
+                $(".page-3-2 > .iphone-content >.iphone-content-3-1").attr("src", "images/page3/ufo-1.png");
             }
         }
     });
