@@ -3,6 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="renderer" content="webkit">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="format-detection" content="telephone=no">
     <title>index</title>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/idangerous.swiper.css">
@@ -119,7 +124,7 @@
 
                     <div class="iphone-content">
                         <img src="images/page4/location.png" alt="" class="iphone-content-4-1"/>
-                        <img src="images/page4/toggle.png" alt="" class="iphone-content-4-2"/>
+                        <img src="images/page4/toggle.png" alt="" class="iphone-content-4-2" id="toggle"/>
                         <img src="images/page4/toggle-shadow.png" alt="" class="iphone-content-4-3"/>
                         <img src="images/page4/mark.png" alt="" class="iphone-content-4-4"/>
                         <img src="images/page4/campus.png" alt="" class="iphone-content-4-5"/>
@@ -161,6 +166,16 @@
             }
             else {
                 $(".page-3-2 > .iphone-content >.iphone-content-3-1").attr("src", "images/page3/ufo-1.png");
+            }
+            if (swiper.activeIndex == 3) {
+                var toggle_1 = $(".page-4-2 > .iphone-content >.iphone-content-4-2");
+                toggle_1.bind("webkitAnimationEnd", function () {
+                    toggle_1.addClass("iphone-content-4-2-2");
+                });
+            }
+            else {
+                var toggle_2 = $(".page-4-2 > .iphone-content >.iphone-content-4-2");
+                toggle_2.removeClass("iphone-content-4-2-2").addClass("iphone-content-4-2");
             }
         }
     });

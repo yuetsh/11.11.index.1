@@ -347,10 +347,17 @@
     -webkit-animation: flipInX 1s ease-out 1.8s both;
     animation: flipInX 1s ease-out 1.8s both;
   }
+
   .iphone-content-4-2 {
     -webkit-animation: bounceIn 1s ease-out 2s both;
     animation: bounceIn 1s ease-out 2s both;
   }
+
+  .iphone-content-4-2-2 {
+    -webkit-animation: bounce 1s ease-out 0s both;
+    animation: bounce 1s ease-out 0s both;
+  }
+
   .iphone-content-4-3 {
     -webkit-animation: bounceIn 1s ease-out 2.2s both;
     animation: bounceIn 1s ease-out 2.2s both;

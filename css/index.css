@@ -404,7 +404,7 @@ img.slide-1-9 {
     .page-4-2 .iphone-content .iphone-content-4-1 {
       margin-top: 9px;
       height: 20px; }
-    .page-4-2 .iphone-content .iphone-content-4-2 {
+    .page-4-2 .iphone-content #toggle {
       position: absolute;
       top: 100px;
       left: 66px;
@@ -711,6 +711,9 @@ img.slide-1-9 {
 .swiper-slide-visible .iphone-content-4-2 {
   -webkit-animation: bounceIn 1s ease-out 2s both;
   animation: bounceIn 1s ease-out 2s both; }
+.swiper-slide-visible .iphone-content-4-2-2 {
+  -webkit-animation: bounce 1s ease-out 0s both;
+  animation: bounce 1s ease-out 0s both; }
 .swiper-slide-visible .iphone-content-4-3 {
   -webkit-animation: bounceIn 1s ease-out 2.2s both;
   animation: bounceIn 1s ease-out 2.2s both; }
@@ -737,7 +740,7 @@ img.slide-1-9 {
   animation: bounceIn 0.8s ease-out 2.2s both; }
 .swiper-slide-visible .slide-4-11 {
   -webkit-animation: bounceIn 0.8s ease-out 2.4s both;
-  animation: bounceIn 1s ease-out 2.4s both; }
+  animation: bounceIn 0.8s ease-out 2.4s both; }
 
 .swiper-slide-visible .slide-5-1 {
   -webkit-animation: bounceIn 0.8s ease-out 0s both;
