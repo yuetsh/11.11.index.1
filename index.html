@@ -7,13 +7,12 @@
           content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="white">
-
-
     <meta name="format-detection" content="telephone=no">
-    <title>index</title>
+    <title>1111</title>
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/idangerous.swiper.css">
     <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-1.8.3.min.js"></script>
 </head>
 <body>
 <div class="swiper-container">
@@ -151,13 +150,14 @@
             </div>
         </div>
     </div>
-    <div class="swiper-pagination"></div>
 </div>
-
-<script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/idangerous.swiper-2.0.min.js"></script>
 <script>
+    $(function(){
+        $(".swiper-container").height($(window).height());
+        $(".swiper-slide").height($(window).height());
+    });
     var mySwiper = new Swiper('.swiper-container', {
         mode: 'vertical',
         mousewheelControl: true,
@@ -182,5 +182,6 @@
         }
     });
 </script>
+
 </body>
 </html>
