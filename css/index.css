@@ -592,8 +592,8 @@ img.slide-1-9 {
   -webkit-animation: swing 1s ease-out 0s both infinite;
   animation: swing 1s ease-out 0s both infinite; }
 .swiper-slide-visible .hover-flipInY {
-  -webkit-animation: flipInY 1s ease-out 0s both;
-  animation: flipInY 1s ease-out 0s both; }
+  -webkit-animation: flipInY 1s ease-out 0.3s both;
+  animation: flipInY 1s ease-out 0.3s both; }
 .swiper-slide-visible .hover-tada-infinite-1 {
   -webkit-animation: tada 1s linear 0s both infinite;
   animation: tada 1s linear 0s both infinite; }
@@ -601,23 +601,23 @@ img.slide-1-9 {
   -webkit-animation: tada 1s linear 0.2s both infinite;
   animation: tada 1s linear 0.2s both infinite; }
 .swiper-slide-visible .hover-flipInY-2 {
-  -webkit-animation: flipInY 0.8s ease-out 0.3s both;
-  animation: flipInY 0.8s ease-out 0.3s both; }
+  -webkit-animation: flipInY 0.8s ease-out 0.6s both;
+  animation: flipInY 0.8s ease-out 0.6s both; }
 .swiper-slide-visible .hover-flipInY-3 {
-  -webkit-animation: flipInY 0.8s ease-out 0.5s both;
-  animation: flipInY 0.8s ease-out 0.5s both; }
-.swiper-slide-visible .hover-flipInY-4 {
-  -webkit-animation: flipInY 0.8s ease-out 0.7s both;
-  animation: flipInY 0.8s ease-out 0.7s both; }
-.swiper-slide-visible .hover-flipInY-5 {
   -webkit-animation: flipInY 0.8s ease-out 0.9s both;
   animation: flipInY 0.8s ease-out 0.9s both; }
-.swiper-slide-visible .hover-flipInY-6 {
+.swiper-slide-visible .hover-flipInY-4 {
   -webkit-animation: flipInY 0.8s ease-out 1.1s both;
   animation: flipInY 0.8s ease-out 1.1s both; }
+.swiper-slide-visible .hover-flipInY-5 {
+  -webkit-animation: flipInY 0.8s ease-out 1.3s both;
+  animation: flipInY 0.8s ease-out 1.3s both; }
+.swiper-slide-visible .hover-flipInX-6 {
+  -webkit-animation: flipInX 0.8s ease-out 1.5s both;
+  animation: flipInX 0.8s ease-out 1.5s both; }
 .swiper-slide-visible .hover-flipInY-7 {
-  -webkit-animation: flipInY 0.8s ease-out 1.5s both;
-  animation: flipInY 0.8s ease-out 1.5s both; }
+  -webkit-animation: flipInY 0.8s ease-out 1.7s both;
+  animation: flipInY 0.8s ease-out 1.7s both; }
 .swiper-slide-visible .hover-bounce {
   -webkit-animation: bounce 1s ease 0s both infinite;
   animation: bounce 1s ease 0s both infinite; }

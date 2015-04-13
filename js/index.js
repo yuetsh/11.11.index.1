@@ -20,7 +20,7 @@ $(function () {
         $("#avatar").addClass("hover-flipInY-3");
         $("#square-1").addClass("hover-flipInY-4");
         $("#square-2").addClass("hover-flipInY-5");
-        $("#iphone-content-p1").css({"display": "block"}).addClass("hover-flipInY-6");
+        $("#iphone-content-p1").css({"display": "block"}).addClass("hover-flipInX-6");
         $("#iphone-content-img1").css({"display": "block"}).addClass("hover-flipInY-7");
         $("#iphone-content-p2,#iphone-content-img2,#iphone-content-p3,#iphone-content-img3").css({"display": "none"});
 
@@ -32,7 +32,7 @@ $(function () {
         $("#avatar").removeClass("hover-flipInY-3 iphone-content-2");
         $("#square-1").removeClass("hover-flipInY-4 iphone-content-3");
         $("#square-2").removeClass("hover-flipInY-5 iphone-content-4");
-        $("#iphone-content-p1").removeClass("hover-flipInY-6 iphone-content-5");
+        $("#iphone-content-p1").removeClass("hover-flipInX-6 iphone-content-5");
         $("#iphone-content-img1").removeClass("hover-flipInY-7 iphone-content-6");
     });
 
@@ -45,7 +45,7 @@ $(function () {
         $("#square-1").addClass("hover-flipInY-4");
         $("#square-2").addClass("hover-flipInY-5");
         $("#iphone-content-p1,#iphone-content-img1,#iphone-content-p3,#iphone-content-img3").css({"display": "none"});
-        $("#iphone-content-p2").css({"display": "block"}).addClass("hover-flipInY-6");
+        $("#iphone-content-p2").css({"display": "block"}).addClass("hover-flipInX-6");
         $("#iphone-content-img2").css({"display": "block"}).addClass("hover-flipInY-7");
     }, function () {
         $("#circle-2").removeClass("hover-rubberBand slide-2-6");
@@ -55,7 +55,7 @@ $(function () {
         $("#avatar").removeClass("hover-flipInY-3 iphone-content-2");
         $("#square-1").removeClass("hover-flipInY-4 iphone-content-3");
         $("#square-2").removeClass("hover-flipInY-5 iphone-content-4");
-        $("#iphone-content-p2").removeClass("hover-flipInY-6 iphone-content-5");
+        $("#iphone-content-p2").removeClass("hover-flipInX-6 iphone-content-5");
         $("#iphone-content-img2").removeClass("hover-flipInY-7 iphone-content-6");
     });
 
@@ -68,7 +68,7 @@ $(function () {
         $("#square-1").addClass("hover-flipInY-4");
         $("#square-2").addClass("hover-flipInY-5");
         $("#iphone-content-p1,#iphone-content-img1,#iphone-content-p2,#iphone-content-img2").css({"display": "none"});
-        $("#iphone-content-p3").css({"display": "block"}).addClass("hover-flipInY-6");
+        $("#iphone-content-p3").css({"display": "block"}).addClass("hover-flipInX-6");
         $("#iphone-content-img3").css({"display": "block"}).addClass("hover-flipInY-7");
     }, function () {
         $("#circle-3").removeClass("hover-rubberBand slide-2-7");
@@ -78,7 +78,7 @@ $(function () {
         $("#avatar").removeClass("hover-flipInY-3 iphone-content-2");
         $("#square-1").removeClass("hover-flipInY-4 iphone-content-3");
         $("#square-2").removeClass("hover-flipInY-5 iphone-content-4");
-        $("#iphone-content-p3").removeClass("hover-flipInY-6 iphone-content-5");
+        $("#iphone-content-p3").removeClass("hover-flipInX-6 iphone-content-5");
         $("#iphone-content-img3").removeClass("hover-flipInY-7 iphone-content-6");
     });
 
