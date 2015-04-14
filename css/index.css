@@ -753,10 +753,10 @@ img.slide-1-9 {
   animation: bounceIn 0.8s ease-out 2.4s both; }
 
 .swiper-slide-visible .slide-5-1 {
-  -webkit-animation: bounceIn 0.8s ease-out 0s both;
-  animation: bounceIn 0.8s ease-out 0s both; }
+  -webkit-animation: bounceIn 0.8s ease-out 0.4s both;
+  animation: bounceIn 0.8s ease-out 0.4s both; }
 .swiper-slide-visible .slide-5-2 {
-  -webkit-animation: flipInX 1s ease-out 0.3s both;
-  animation: flipInX 1s ease-out 0.3s both; }
+  -webkit-animation: flipInX 1s ease-out 0.7s both;
+  animation: flipInX 1s ease-out 0.7s both; }
 
 /*# sourceMappingURL=index.css.map */
