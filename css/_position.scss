@@ -33,603 +33,642 @@ body {
 }
 
 //page1
-img.slide-1-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  height: 50%;
-  z-index: 998;
-}
+.index-1 {
+  width: 3000px;
+  height: 3000px;
+  img.slide-1-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 50%;
+    z-index: 998;
+  }
 
-img.slide-1-2 {
-  position: absolute;
-  top: 48%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  height: 23%;
-  z-index: 1000;
-}
+  img.slide-1-2 {
+    position: absolute;
+    top: 48%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 23%;
+    z-index: 1000;
+  }
 
-img.slide-1-3 {
-  position: absolute;
-  top: 20%;
-  left: 70%;
-  bottom: 80%;
-  right: 30%;
-  margin: auto;
-  //  width: 10%;
-}
+  img.slide-1-3 {
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    bottom: 80%;
+    right: 30%;
+    margin: auto;
+    //  width: 10%;
+  }
 
-img.slide-1-4 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  margin: auto;
-  //  width: 8%;
-}
+  img.slide-1-4 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: auto;
+    //  width: 8%;
+  }
 
-img.slide-1-5 {
-  position: absolute;
-  top: 40%;
-  left: 20%;
-  margin: auto;
-  //  width: 5%;
-}
+  img.slide-1-5 {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    margin: auto;
+    //  width: 5%;
+  }
 
-img.slide-1-6 {
-  position: absolute;
-  top: 15%;
-  left: 40%;
-  margin: auto;
-  //  width: 7%;
-}
+  img.slide-1-6 {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    margin: auto;
+    //  width: 7%;
+  }
 
-img.slide-1-7 {
-  position: absolute;
-  top: 20%;
-  left: 25%;
-  margin: auto;
-  //  width: 10%;
-  z-index: 999;
-}
+  img.slide-1-7 {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin: auto;
+    //  width: 10%;
+    z-index: 999;
+  }
 
-img.slide-1-8 {
-  position: absolute;
-  top: 80%;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 25%;
-}
+  img.slide-1-8 {
+    position: absolute;
+    top: 82%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 25%;
+  }
 
-img.slide-1-9 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  margin: auto;
-  height: 40%;
-  z-index: 999;
+  img.slide-1-9 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin: auto;
+    height: 40%;
+    z-index: 999;
+  }
+
+  .word {
+    color: white;
+    font-family: "SimHei";
+    font-size: 26px;
+    font-weight: 700;
+    width: 300px;
+    height: 65px;
+    position: absolute;
+    top: 76%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    p:last-child {
+      margin-top: 5px;
+    }
+  }
 }
 
 //page2
-.vertical-center {
-  height: 600px;
-  width: 1000px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  .page-2-1 {
-    height: 400px;
-    width: 180px;
-    margin-left: 12%;
-    //  background-color: #333;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    #go {
-      position: absolute;
-      top: 30px;
-      left: 40px;
-      height: 100px;
-    }
-    #just {
-      position: absolute;
-      top: 110px;
-      left: 80px;
-      height: 60px;
-    }
-    #play {
-      position: absolute;
-      top: 172px;
-      left: 43px;
-      width: 80px;
-      &:hover {
-        cursor: pointer;
-      }
-    }
-  }
 
-  .page-2-2 {
-    height: 640px;
-    width: 350px;
-    //  background-color: #ccc;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    #iphone {
-      position: absolute;
-      top: 10%;
-      left: 40px;
-      width: 220px;
-      //      display: none;
-    }
-
-    .iphone-content {
-      width: 193px;
-      height: 341px;
+.index-2 {
+  width: 3000px;
+  height: 3000px;
+  .vertical-center {
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .page-2-1 {
+      height: 400px;
+      width: 180px;
+      margin-left: 12%;
+      //  background-color: #333;
       position: relative;
-      //    background-color: #333;
-      margin-left: 54px;
-      margin-top: 117px;
-      #xxxx {
-        height: 22px;
-        margin-top: 10px;
-      }
-      #avatar {
+      float: left;
+      top: -50%;
+      left: -50%;
+      #go {
         position: absolute;
-        width: 30px;
-        top: 70px;
-        left: 10px;
+        top: 30px;
+        left: 40px;
+        height: 100px;
       }
-      #square-1 {
+      #just {
         position: absolute;
-        width: 40px;
-        top: 76px;
-        left: 45px;
+        top: 110px;
+        left: 80px;
+        height: 60px;
       }
-      #square-2 {
+      #play {
         position: absolute;
-        width: 29px;
-        top: 90px;
-        left: 45px;
-      }
-      #iphone-content-p1, #iphone-content-p2, #iphone-content-p3 {
-        position: absolute;
-        height: 14px;
-        top: 104px;
-        left: 10px;
-      }
-      #iphone-content-img1, #iphone-content-img2, #iphone-content-img3 {
-        position: absolute;
-        width: 168px;
-        top: 122px;
-        left: 12px;
+        top: 172px;
+        left: 43px;
+        width: 80px;
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
 
-    //shadow #2
-    #shadow-2 {
-      position: absolute;
-      bottom: 15%;
-      left: 50px;
-      width: 200px;
+    .page-2-2 {
+      height: 640px;
+      width: 350px;
+      //  background-color: #ccc;
+      position: relative;
+      float: left;
+      top: -50%;
+      left: -50%;
+      #iphone {
+        position: absolute;
+        top: 10%;
+        left: 40px;
+        width: 220px;
+        //      display: none;
+      }
+
+      .iphone-content {
+        width: 193px;
+        height: 341px;
+        position: relative;
+        //    background-color: #333;
+        margin-left: 54px;
+        margin-top: 117px;
+        #xxxx {
+          height: 22px;
+          margin-top: 10px;
+        }
+        #avatar {
+          position: absolute;
+          width: 30px;
+          top: 70px;
+          left: 10px;
+        }
+        #square-1 {
+          position: absolute;
+          width: 40px;
+          top: 76px;
+          left: 45px;
+        }
+        #square-2 {
+          position: absolute;
+          width: 29px;
+          top: 90px;
+          left: 45px;
+        }
+        #iphone-content-p1, #iphone-content-p2, #iphone-content-p3 {
+          position: absolute;
+          height: 14px;
+          top: 104px;
+          left: 10px;
+        }
+        #iphone-content-img1, #iphone-content-img2, #iphone-content-img3 {
+          position: absolute;
+          width: 168px;
+          top: 122px;
+          left: 12px;
+        }
+      }
+
+      //shadow #2
+      #shadow-2 {
+        position: absolute;
+        bottom: 15%;
+        left: 50px;
+        width: 200px;
+      }
+    }
+
+    .page-2-3 {
+      height: 640px;
+      width: 300px;
+      //    background-color: #ddd;
+      position: relative;
+      float: left;
+      top: -50%;
+      left: -50%;
+      #circle-1 {
+        position: absolute;
+        top: 20%;
+        left: 0;
+        width: 80px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      #circle-2 {
+        position: absolute;
+        top: 40%;
+        left: 0;
+        width: 80px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      #circle-3 {
+        position: absolute;
+        top: 60%;
+        left: 0;
+        width: 80px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      #right-p1 {
+        position: absolute;
+        top: 22.5%;
+        left: 100px;
+        height: 45px;
+      }
+
+      #right-p2 {
+        position: absolute;
+        top: 42.5%;
+        left: 100px;
+        height: 45px;
+      }
+
+      #right-p3 {
+        position: absolute;
+        top: 62.5%;
+        left: 100px;
+        height: 45px;
+      }
     }
   }
+}
 
-  .page-2-3 {
-    height: 640px;
-    width: 300px;
-    //    background-color: #ddd;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    #circle-1 {
-      position: absolute;
-      top: 20%;
-      left: 0;
-      width: 80px;
-      &:hover {
-        cursor: pointer;
+.index-3 {
+  width: 3000px;
+  height: 3000px;
+  .vertical-center {
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .page-3-1 {
+      height: 400px;
+      width: 180px;
+      margin-left: 12%;
+      //  background-color: #333;
+      position: relative;
+      float: left;
+      top: -50%;
+      left: -50%;
+      .slide-3-1 {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+        height: 140px;
+      }
+      .slide-3-2 {
+        position: absolute;
+        top: 65px;
+        left: 80px;
+        height: 160px;
+      }
+      .slide-3-3 {
+        position: absolute;
+        top: 155px;
+        left: 83px;
+        height: 23px;
       }
     }
 
-    #circle-2 {
-      position: absolute;
-      top: 40%;
-      left: 0;
-      width: 80px;
-      &:hover {
-        cursor: pointer;
+    .page-3-2 {
+      height: 640px;
+      width: 350px;
+      //  background-color: #ccc;
+      position: relative;
+      float: left;
+      top: -50%;
+      left: -50%;
+      #iphone-2 {
+        position: absolute;
+        top: 10%;
+        left: 40px;
+        width: 220px;
+      }
+
+      .iphone-content {
+        width: 193px;
+        height: 341px;
+        position: relative;
+        margin-left: 54px;
+        margin-top: 117px;
+        .p3-top {
+          width: 192px;
+          height: 67px;
+          position: relative;
+          float: left;
+          #xxxx-2 {
+            height: 12px;
+            padding-top: 15px;
+          }
+        }
+        #heart {
+          position: absolute;
+          top: 46px;
+          right: 12px;
+          width: 16px;
+        }
+        //ufo
+        #ufo {
+          position: absolute;
+          top: -1px;
+          left: -1px;
+          width: 194px;
+          z-index: 999;
+        }
+        .p3-left {
+          //      background-color: #333;
+          width: 36px;
+          height: 250px;
+          position: relative;
+          float: left;
+          #c1, #c2 {
+            position: absolute;
+            left: 5px;
+            width: 90%;
+          }
+          #c1 {
+            top: 20px;
+          }
+          #c2 {
+            top: 110px;
+          }
+        }
+        .p3-mid {
+          //      background-color: #666;
+          width: 120px;
+          height: 250px;
+          float: left;
+          position: relative;
+          #m1, #m3 {
+            position: absolute;
+            left: 3px;
+            width: 110px;
+          }
+          #m2, #m4, #m5 {
+            position: absolute;
+            left: 8px;
+            width: 110px;
+          }
+          #m1 {
+            top: 20px;
+          }
+          #m2 {
+            top: 65px;
+          }
+          #m3 {
+            top: 110px;
+          }
+          #m4 {
+            top: 155px;
+          }
+          #m5 {
+            top: 200px;
+          }
+        }
+        .p3-right {
+          //      background-color: #111;
+          width: 36px;
+          height: 250px;
+          float: left;
+          position: relative;
+          #c3, #c4, #c5 {
+            position: absolute;
+            left: 0;
+            width: 90%;
+          }
+          #c3 {
+            top: 65px;
+          }
+          #c4 {
+            top: 155px;
+          }
+          #c5 {
+            top: 200px;
+          }
+        }
+      }
+      //shadow #3
+      #shadow-3 {
+        position: absolute;
+        bottom: 15%;
+        left: 50px;
+        width: 200px;
       }
     }
 
-    #circle-3 {
-      position: absolute;
-      top: 60%;
-      left: 0;
-      width: 80px;
-      &:hover {
-        cursor: pointer;
+    .page-3-3 {
+      height: 640px;
+      width: 300px;
+      //  background-color: #ddd;
+      position: relative;
+      float: left;
+      top: -50%;
+      left: -50%;
+      .slide-3-6 {
+        position: absolute;
+        top: 38%;
+        left: 0px;
+        height: 45px;
       }
-    }
-
-    #right-p1 {
-      position: absolute;
-      top: 22.5%;
-      left: 100px;
-      height: 45px;
-    }
-
-    #right-p2 {
-      position: absolute;
-      top: 42.5%;
-      left: 100px;
-      height: 45px;
-    }
-
-    #right-p3 {
-      position: absolute;
-      top: 62.5%;
-      left: 100px;
-      height: 45px;
+      .slide-3-7 {
+        position: absolute;
+        top: 46%;
+        left: 0px;
+        height: 45px;
+      }
     }
   }
 }
 
 //page3
-.vertical-center {
-  height: 600px;
-  width: 1000px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  .page-3-1 {
-    height: 400px;
-    width: 180px;
-    margin-left: 12%;
-    //  background-color: #333;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    .slide-3-1 {
-      position: absolute;
-      top: 20px;
-      left: 40px;
-      height: 140px;
-    }
-    .slide-3-2 {
-      position: absolute;
-      top: 65px;
-      left: 80px;
-      height: 160px;
-    }
-    .slide-3-3 {
-      position: absolute;
-      top: 155px;
-      left: 83px;
-      height: 23px;
-    }
-  }
 
-  .page-3-2 {
-    height: 640px;
-    width: 350px;
-    //  background-color: #ccc;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    #iphone-2 {
-      position: absolute;
-      top: 10%;
-      left: 40px;
-      width: 220px;
-    }
-
-    .iphone-content {
-      width: 193px;
-      height: 341px;
+.index-4 {
+  width: 3000px;
+  height: 3000px;
+  .vertical-center {
+    height: 600px;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    .page-4-1 {
+      height: 400px;
+      width: 180px;
+      margin-left: 12%;
+      //  background-color: #333;
       position: relative;
-      margin-left: 54px;
-      margin-top: 117px;
-      .p3-top {
-        width: 192px;
-        height: 67px;
-        position: relative;
-        float: left;
-        #xxxx-2 {
-          height: 12px;
-          padding-top: 15px;
-        }
-      }
-      #heart {
+      float: left;
+      top: -50%;
+      left: -50%;
+      .slide-4-1 {
         position: absolute;
-        top: 46px;
-        right: 12px;
-        width: 16px;
+        top: 20px;
+        left: 48px;
+        width: 28px;
       }
-      //ufo
-      #ufo {
+      .slide-4-2 {
         position: absolute;
-        top: -1px;
-        left: -1px;
-        width: 194px;
+        top: 65px;
+        left: 85px;
+        width: 28px;
+      }
+      .slide-4-3 {
+        position: absolute;
+        top: 125px;
+        left: 75px;
+        width: 50px;
         z-index: 999;
       }
-      .p3-left {
-        //      background-color: #333;
-        width: 36px;
-        height: 250px;
-        position: relative;
-        float: left;
-        #c1, #c2 {
-          position: absolute;
-          left: 5px;
-          width: 90%;
-        }
-        #c1 {
-          top: 20px;
-        }
-        #c2 {
-          top: 110px;
-        }
-      }
-      .p3-mid {
-        //      background-color: #666;
-        width: 120px;
-        height: 250px;
-        float: left;
-        position: relative;
-        #m1, #m3 {
-          position: absolute;
-          left: 3px;
-          width: 110px;
-        }
-        #m2, #m4, #m5 {
-          position: absolute;
-          left: 8px;
-          width: 110px;
-        }
-        #m1 {
-          top: 20px;
-        }
-        #m2 {
-          top: 65px;
-        }
-        #m3 {
-          top: 110px;
-        }
-        #m4 {
-          top: 155px;
-        }
-        #m5 {
-          top: 200px;
-        }
-      }
-      .p3-right {
-        //      background-color: #111;
-        width: 36px;
-        height: 250px;
-        float: left;
-        position: relative;
-        #c3, #c4, #c5 {
-          position: absolute;
-          left: 0;
-          width: 90%;
-        }
-        #c3 {
-          top: 65px;
-        }
-        #c4 {
-          top: 155px;
-        }
-        #c5 {
-          top: 200px;
-        }
+      .slide-4-4 {
+        position: absolute;
+        top: 151px;
+        left: 57px;
+        height: 85px;
+        z-index: 998;
       }
     }
-    //shadow #3
-    #shadow-3 {
-      position: absolute;
-      bottom: 15%;
-      left: 50px;
-      width: 200px;
-    }
-  }
 
-  .page-3-3 {
-    height: 640px;
-    width: 300px;
-    //  background-color: #ddd;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    .slide-3-6 {
-      position: absolute;
-      top: 38%;
-      left: 0px;
-      height: 45px;
-    }
-    .slide-3-7 {
-      position: absolute;
-      top: 46%;
-      left: 0px;
-      height: 45px;
-    }
-  }
-}
-
-.vertical-center {
-  height: 600px;
-  width: 1000px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  .page-4-1 {
-    height: 400px;
-    width: 180px;
-    margin-left: 12%;
-    //  background-color: #333;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    .slide-4-1 {
-      position: absolute;
-      top: 20px;
-      left: 48px;
-      width: 28px;
-    }
-    .slide-4-2 {
-      position: absolute;
-      top: 65px;
-      left: 85px;
-      width: 28px;
-    }
-    .slide-4-3 {
-      position: absolute;
-      top: 125px;
-      left: 75px;
-      width: 50px;
-      z-index: 999;
-    }
-    .slide-4-4 {
-      position: absolute;
-      top: 151px;
-      left: 57px;
-      height: 85px;
-      z-index: 998;
-    }
-  }
-
-  .page-4-2 {
-    height: 640px;
-    width: 350px;
-    //  background-color: #ccc;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    #iphone-3 {
-      position: absolute;
-      top: 10%;
-      left: 40px;
-      width: 220px;
-    }
-
-    .iphone-content {
-      width: 193px;
-      height: 341px;
+    .page-4-2 {
+      height: 640px;
+      width: 350px;
+      //  background-color: #ccc;
       position: relative;
-      margin-left: 54px;
-      margin-top: 117px;
-      .iphone-content-4-1 {
-        margin-top: 9px;
+      float: left;
+      top: -50%;
+      left: -50%;
+      #iphone-3 {
+        position: absolute;
+        top: 10%;
+        left: 40px;
+        width: 220px;
+      }
+
+      .iphone-content {
+        width: 193px;
+        height: 341px;
+        position: relative;
+        margin-left: 54px;
+        margin-top: 117px;
+        .iphone-content-4-1 {
+          margin-top: 9px;
+          height: 20px;
+        }
+        #toggle {
+          position: absolute;
+          top: 100px;
+          left: 66px;
+          height: 80px;
+        }
+        .iphone-content-4-3 {
+          position: absolute;
+          top: 181px;
+          left: 70px;
+          width: 50px;
+        }
+        .iphone-content-4-4 {
+          position: absolute;
+          bottom: 58px;
+          left: 53px;
+          width: 25px;
+        }
+        .iphone-content-4-5 {
+          position: absolute;
+          bottom: 61px;
+          left: 78px;
+          height: 17px;
+        }
+        .iphone-content-4-6 {
+          position: absolute;
+          bottom: 13px;
+          left: 10px;
+          height: 35px;
+        }
+      }
+      //shadow-4
+      #shadow-4 {
+        position: absolute;
+        bottom: 15%;
+        left: 50px;
+        width: 200px;
+      }
+    }
+
+    .page-4-3 {
+      height: 640px;
+      width: 300px;
+      //  background-color: #ddd;
+      position: relative;
+      float: left;
+      top: -50%;
+      left: -50%;
+      .slide-4-7 {
+        position: absolute;
+        top: 38%;
+        left: 0px;
         height: 20px;
       }
-      #toggle {
+      .slide-4-8 {
         position: absolute;
-        top: 100px;
-        left: 66px;
-        height: 80px;
+        top: 42%;
+        left: 0px;
+        height: 20px;
       }
-      .iphone-content-4-3 {
+      .slide-4-9 {
         position: absolute;
-        top: 181px;
-        left: 70px;
-        width: 50px;
+        top: 46%;
+        left: 0px;
+        height: 20px;
       }
-      .iphone-content-4-4 {
+      .slide-4-10 {
         position: absolute;
-        bottom: 58px;
-        left: 53px;
-        width: 25px;
+        top: 50%;
+        left: -80px;
+        height: 75px;
       }
-      .iphone-content-4-5 {
+      .slide-4-11 {
         position: absolute;
-        bottom: 61px;
-        left: 78px;
-        height: 17px;
+        top: 54%;
+        left: -22px;
+        height: 28px;
       }
-      .iphone-content-4-6 {
-        position: absolute;
-        bottom: 13px;
-        left: 10px;
-        height: 35px;
-      }
-    }
-    //shadow-4
-    #shadow-4 {
-      position: absolute;
-      bottom: 15%;
-      left: 50px;
-      width: 200px;
-    }
-  }
-
-  .page-4-3 {
-    height: 640px;
-    width: 300px;
-    //  background-color: #ddd;
-    position: relative;
-    float: left;
-    top: -50%;
-    left: -50%;
-    .slide-4-7 {
-      position: absolute;
-      top: 38%;
-      left: 0px;
-      height: 20px;
-    }
-    .slide-4-8 {
-      position: absolute;
-      top: 42%;
-      left: 0px;
-      height: 20px;
-    }
-    .slide-4-9 {
-      position: absolute;
-      top: 46%;
-      left: 0px;
-      height: 20px;
-    }
-    .slide-4-10 {
-      position: absolute;
-      top: 50%;
-      left: -80px;
-      height: 75px;
-    }
-    .slide-4-11 {
-      position: absolute;
-      top: 54%;
-      left: -22px;
-      height: 28px;
     }
   }
 }
 
-.page-5 {
-  position: absolute;
-  width: 500px;
-  height: 360px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.index-5 {
+  width: 3000px;
+  height: 3000px;
+  .page-5 {
+    position: absolute;
+    width: 500px;
+    height: 360px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 
-  .slide-5-2 {
-    height: 50px;
-    margin-top: 30px;
+    .slide-5-2 {
+      height: 50px;
+      margin-top: 30px;
+    }
   }
 }
 

@@ -42,8 +42,18 @@
   }
 
   .slide-1-9 {
-    -webkit-animation: fadeInUp 1s ease-out 0s both;
-    animation: fadeInUp 1s ease-out 0s both;
+    -webkit-animation: fadeInUp 1s ease-out 0.2s both;
+    animation: fadeInUp 1s ease-out 0.2s both;
+  }
+  .word {
+    p:nth-child(1) {
+      -webkit-animation: bounceInLeft 1s ease-out 1s both;
+      animation: bounceInLeft 1s ease-out 1s both;
+    }
+    p:nth-child(2) {
+      -webkit-animation: bounceInRight 1s ease-out 1.3s both;
+      animation: bounceInRight 1s ease-out 1.3s both;
+    }
   }
 }
 
